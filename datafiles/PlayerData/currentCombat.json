@@ -1,0 +1,18 @@
+﻿{
+    "Attacks":
+    [
+        {"ID": "normal"},
+        {"ID": "none"},
+        {"ID": "none"},
+        {"ID": "none"},
+        {"ID": "magicPunch"},
+        {"ID": "none"},
+        {"ID": "none"},
+        {"ID": "none"},
+        {"ID": "lessHealth"},
+        {"ID": "lessMana"},
+        {"ID": "none"},
+        {"ID": "none"},
+        {"ID": "fist"}
+    ]
+}

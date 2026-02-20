@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"grabMaterial",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"grabMaterial",
+  "parent":{
+    "name":"Grabbers",
+    "path":"folders/Scripts/Grabbers.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

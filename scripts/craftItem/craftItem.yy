@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"craftItem",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"craftItem",
+  "parent":{
+    "name":"blacksmith",
+    "path":"folders/Scripts/Actions/Eldaria/blacksmith.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

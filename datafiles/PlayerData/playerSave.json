@@ -1,0 +1,15 @@
+{
+   "name": "JPEG",
+   "month": "Felixmen",
+   "time": "Day",
+   "day": 15,
+   "hp": 200,
+   "maxHp": 0,
+   "strength": 200,
+   "dexterity": 200,
+   "mind": 6,
+   "luck": 2,
+   "level": 20,
+   "xp": 49,
+   "xpToNextLevel": 50
+}

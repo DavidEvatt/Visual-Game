@@ -1,0 +1,40 @@
+{
+    "id": "t1",
+    "type": "town",
+    "name": "Springviel",
+    "header": "Welcome to Elderwell. What do you do?",
+    "region": "Springviel",
+
+    "Actions":
+    [
+        {
+            "actionDescription": "",
+            "target": ""
+        },
+
+        {
+            "actionDescription": "",
+            "target": ""
+        },
+
+        {
+            "actionDescription": "",
+            "target": ""
+        },
+
+        {
+            "actionDescription": "",
+            "target": ""
+        },
+
+        {
+            "actionDescription": "Leave Town",
+            "target": "Eldaria/town.json"
+        },
+
+        {
+            "actionDescription": "Save + Quit",
+            "target": "saveQuit"
+        }
+    ]
+}

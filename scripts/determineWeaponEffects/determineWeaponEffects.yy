@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"determineWeaponEffects",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"determineWeaponEffects",
+  "parent":{
+    "name":"Weapons",
+    "path":"folders/Scripts/Combat/Weapons.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

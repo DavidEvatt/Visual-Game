@@ -1,0 +1,13 @@
+colorMyself(
+				self,
+				objTDPlayer.playerColors[0],
+				objTDPlayer.playerColors[1],
+				objTDPlayer.playerColors[2],
+				objTDPlayer.playerColors[3],
+				objTDPlayer.playerColors[4],
+				objTDPlayer.playerColors[5],
+				objTDPlayer.weaponColor[0],
+				objTDPlayer.weaponColor[1],
+				objTDPlayer.weaponColor[2],
+				objTDPlayer.weaponColor[3]
+				)

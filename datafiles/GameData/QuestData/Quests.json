@@ -1,0 +1,234 @@
+{
+    "Bounties":
+    [
+        {
+            "id": "lightningRabbit",
+            "type": "Bounties",
+            "name": "Lightning Rabbit Quest",
+            "currentState": 0,
+
+            "states":
+            [
+                {
+                    "id": "returnToBlacksmith",
+                    "message": "Kill the lightning rabbit and brings its foot back",
+
+                    "appendActions":
+                    [
+                        {
+                            "locationAppear": "Eldaria/blacksmith.json",
+                            "actionDescription": "Give the lightning rabbit's foot to the blacksmith",
+                            "target": "giveItem",
+                            "itemID": "lightningRabbitFoot",
+                            "questID": "lightningRabbit",
+                            "advanceState": true
+                        }
+                    ]
+
+                    
+                }
+            ],
+
+            "rewards":
+            [
+                {
+                    "type": "coins",
+                    "amount": 50
+                }
+            ]
+        },
+
+        {
+            "id": "ewGCBouty1",
+            "type": "Bounties",
+            "name": "Wood Gathering",
+            "currentState": 0,
+
+            "states":
+            [
+                {
+                    "id": "gatherWood",
+                    "type": "gather",
+                    "description": "Collect 10 wood to help with the\ngeneral repairs of the town.\n+5 Reputation",
+                    "message": "Bring 10 wood to the guild center",
+                    "amtNeeded": 10,
+                    "itemID": "wood",
+
+                    "appendActions":
+                    [
+                        {
+                            "locationAppear": "Eldaria/Shops/guildcenter.json",
+                            "actionDescription": "Complete Wood Gathering Bounty",
+                            "target": "giveItem",
+                            "questID": "ewGCBouty1"
+                        }
+                    ]
+                }
+            ],
+
+            "rewards":
+            [
+                {
+                    "type": "reputation",
+                    "amount": 5
+                }
+            ]
+        },
+
+        {
+            "id": "ewGCBouty2",
+            "type": "Bounties",
+            "name": "Population Control",
+            "currentState": 0,
+
+            "states":
+            [
+                {
+                    "id": "wolfPopControl",
+                    "type": "kill",
+                    "description": "Kill 5 wolves in the forest. Helping with the safety\n+10 Reputation",
+                    "message": "Kill 5 wolves",
+                    "amtNeeded": 10,
+
+                    "appendActions":
+                    [
+                        {
+                            "locationAppear": "Eldaria/Shops/guildcenter.json",
+                            "actionDescription": "Complete Population Control Bounty",
+                            "target": "giveItem",
+                            "itemID": "wood",
+                            "questID": "ewGCBouty2"
+                        }
+                    ]
+                }
+            ],
+
+            "rewards":
+            [
+                {
+                    "type": "reputation",
+                    "amount": 10
+                }
+            ]
+        }
+    ],
+
+    "Quests":
+    [
+        {
+            "id": "bottomOfTheWell",
+            "type": "Quest",
+            "name": "Bottom of the well",
+            "neededItem": "oddKey",
+
+            "currentState": 0,
+
+            "states":
+            [
+                {
+                    "id": "reachBottom",
+                    "message": "Reach the bottom of the well",
+
+                    "appendActions":
+                    [
+                        {
+                            "locationAppear": "EldariaNight/townCenter.json",
+                            "actionDescription": "Swim down the well",
+                            "target": "ElderwellWell/well.json"
+                        }
+                    ]
+                },
+
+                {
+                    "id": "findKey",
+                    "message": "Find a key to open the door at the bottom of the well",
+
+                    "appendActions":
+                    [
+                        {
+                            "locationAppear": "EldariaNight/townCenter.json",
+                            "actionDescription": "Swim down the well",
+                            "target": "ElderwellWell/well.json"
+                        },
+
+                        {
+                            "locationAppear": "EldariaNight/tavern.json",
+                            "actionDescription": "Ask about a key",
+                            "target": "keyAsk"
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "id": "unstablePotion",
+            "type": "Quest",
+            "name": "Thalan's Unstable Potion",
+            "neededItem": "none",
+
+            "currentState": 0,
+
+            "states":
+            [
+                {
+                    "id": "drinkIt",
+                    "message": "Drink the potion and find out what it does",
+
+                    "appendActions":
+                    [
+                        {
+                            "locationAppear": "Eldaria/Shops/potionShop.json",
+                            "actionDescription": "Drink the potion marked \"UNSTABLE\"",
+                            "target": "unstablePotion"
+                        }
+                    ]
+
+                },
+
+                {
+                    "id": "findSleep",
+                    "message": "Find a way to sleep the potion off",
+
+                    "appendActions":
+                    [
+                       
+                    ]
+                },
+
+                {
+                    "id": "takePotion",
+                    "message": "Go back to Oakhearts Brewery",
+
+                    "appendActions":
+                    [
+                        {
+                            "locationAppear": "Eldaria/Shops/potionShop.json",
+                            "actionDescription": "Demand to know what that was",
+                            "target": "potionDemand"
+                        }
+                    ]
+                }
+            ],
+
+            "AppendInventory":
+            [
+                {
+                    "ID": "unstabPot",
+                    "actionDescription": "Unstable Potion: 30 coins",
+                    "Cost": 30,
+                    "target": "buyItems"
+                }
+            ],
+
+            "rewards":
+            [
+                {
+                    "type": "unstabPot",
+                    "amount": 1
+                }
+            ]
+        }
+    ]
+
+}

@@ -1,0 +1,40 @@
+{
+    "id": "t1",
+    "type": "town",
+    "name": "Elderwell",
+    "header": "Welcome to Elderwell. What do you do?",
+    "region": "Elderwell",
+
+    "Actions":
+    [
+        {
+            "actionDescription": "Blackthane's Blacksmith",
+            "target": "Eldaria/blacksmith.json"
+        },
+
+        {
+            "actionDescription": "Market Square",
+            "target": "Eldaria/marketCenter.json"
+        },
+
+        {
+            "actionDescription": "Guild Center",
+            "target": "Eldaria/guildcenter.json"
+        },
+
+        {
+            "actionDescription": "Town Center",
+            "target": "Eldaria/towncenter.json"
+        },
+
+        {
+            "actionDescription": "Leave Town",
+            "target": "leave"
+        },
+
+        {
+            "actionDescription": "Save + Quit",
+            "target": "saveQuit"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "Actions": [
+        {
+            "actionDescription": "Wait till day",
+            "target": "Eldaria/towncenter.json"
+        },
+        {
+            "actionDescription": "Look down the well",
+            "target": "wellLook"
+        },
+        {
+            "actionDescription": "Leave <NOT STARTED>",
+            "target": "EldariaNight/town.json"
+        }
+    ],
+    "header": "The once loud streets are now quiet and the well sits unguarded with a soft sparkling light that calls you to it",
+    "id": "tc1",
+    "name": "Town Center",
+    "type": "townCenter",
+
+    "questEffect":
+    [
+        {
+            "questID": "bottomOfTheWell"
+        }
+    ]
+}

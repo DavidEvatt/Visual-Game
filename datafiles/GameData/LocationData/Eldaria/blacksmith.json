@@ -1,0 +1,76 @@
+{
+    "owner": "Thorfin, Blackthane",
+    "id": "b1",
+    "type": "blacksmith",
+    "name": "Blackthane's Smithy",
+    "header": "Welcome to Blackthane's Smithy. What do you do?",
+    "buyMessage": "Sharpest blades around! What do you want?",
+    "craftMessage": "What can I craft for you?",
+    "maxRarity": 10,
+    "maker": "Thorfin Blackthane",
+    
+
+    "Actions":
+    [
+        {
+            "actionDescription": "Buy",
+            "target": "openShop"
+        },
+
+        {
+            "actionDescription": "Craft",
+            "target": "craftItems"
+        },
+
+        {
+            "actionDescription": "Rumor <NOT STARTED>",
+            "target": "hearRumor"
+        },
+
+        {
+            "actionDescription": "Leave",
+            "target": "Eldaria/town.json"
+        }  
+    ],
+
+    "Inventory":
+    [
+        {
+            "ID": "woodSword",
+            "actionDescription": "Wooden Sword",
+            "Cost": 15,
+            "target": "buyItems"
+        },
+
+        {
+            "ID": "steelSword",
+            "actionDescription": "Steel Sword",
+            "Cost": 30,
+            "target": "buyItems"
+        },
+
+        {
+            "actionDescription": "Back",
+            "target": "Eldaria/blacksmith.json"
+        }
+    ],
+
+    "reputationInventory":
+    [
+        {
+            "minRep": 20,
+            "ID": "heartWoodShield",
+            "actionDescription": "Heart Wood Shield",
+            "Cost": 60,
+            "target": "buyItems"
+
+        }
+    ],
+
+    "questEffect":
+    [
+        {
+            "questID": "lightningRabbit"
+        }
+    ]
+}

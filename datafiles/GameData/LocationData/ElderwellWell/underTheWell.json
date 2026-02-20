@@ -1,0 +1,88 @@
+{
+    "id": "bow1",
+    "type": "well",
+    "name": "Well",
+    "header": "At the bottom of the well there is a door with a lock!\nWhat do you do?",
+
+    "Actions":
+    [
+        {
+            "actionDescription": "Put in the key",
+            "target": "wellKey"
+        },
+
+        {
+            "actionDescription": "Seduce the Door",
+            "target": "seduceDoor"
+        },
+
+        {
+            "actionDescription": "Return to surface",
+            "target": "Eldaria/towncenter.json"
+        }
+    ],
+
+    "SeduceMessages":
+    [
+        {
+            "message": "Your attempts to seduce the door are unsucessful.\n"
+        },
+        {
+            "message": "The door turns a bright red but doesn't budge\n"
+        },
+        {
+            "message": "You hear snickering behind the door as you try to seduce it\n"
+        },
+        {
+            "message": "The door stands there, just being a door\n"
+        },
+        {
+            "message": "You start to hear a sad tiny violin playing from seemingly no where\n"
+        },
+        {
+            "message": "What are you doing? You beging to ask yourself\n"
+        },
+        {
+            "message": "You think you see the handle blush, but it might've been the lighting.\n"
+        },
+        {
+            "message": "The door remains unimpressed by you.\n"
+        },
+        {
+            "message": "You wink at the door. The door does not wink back.\n"
+        },
+        {
+            "message": "You swear the hinges sighed, but it might've been your pride escaping.\n"
+        },
+        {
+            "message": "You try to whisper but bubbles just escape your mouth.\n"
+        },
+        {
+            "message": "You caress the woodgrain lovingly. Splinters remind you of your mistakes.\n"
+        },
+        {
+            "message": "The door looks at you, or it would if it had eyes, which it doesn't.\n"
+        },
+        {
+            "message": "You feel your dignity leave you.\n"
+        },
+        {
+            "message": "The door remains steadfast, an unfeeling guardian of boundaries and rejection.\n"
+        },
+        {
+            "message": "You're pretty sure this isn't how locks work.\n"
+        },
+        {
+            "message": "A bubles of awkwardness fills the water.\n"
+        },
+        {
+            "message": "Somewhere, your ancestors sigh in disappointment.\n"
+        },
+        {
+            "message": "You hear the narrator mutter, 'Really? The door?'\n"
+        },
+        {
+            "message": "The door says nothing, but somehow, you can tell it's not interested.\n"
+        }
+    ]
+}

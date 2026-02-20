@@ -1,0 +1,73 @@
+{
+    "owner": "Varian Stoneweaver",
+    "id": "s3",
+    "type": "shop",
+    "name": "The Stone Shack",
+    "header": "The building looks to be made from rocks that sprouted from the ground. \n\"Hello! What magical thing are you here for?\"",
+    "buyMessage": "\"Spell tomes for those stupid enough to try!\"",
+    "sellMessage": "\"This better not be all junk!\"",
+
+    "sellType": "potion",
+    "secondarySellType": "spellCrafting",
+    "region": "Elderwell",
+
+
+    "Actions":
+    [
+        {
+            "actionDescription": "Buy",
+            "target": "openShop"
+        },
+
+        {
+            "actionDescription": "Sell",
+            "target": "sellItems"
+        },
+
+        {
+            "actionDescription": "<NOT STARTED>",
+            "target": "hearRumor"
+        },
+
+        {
+            "actionDescription": "Leave",
+            "target": "Eldaria/marketCenter.json"
+        }  
+    ],
+
+    "Inventory":
+    [
+        {
+            "ID": "woodStaff",
+            "actionDescription": "Wooden Staff",
+            "Cost": 25,
+            "target": "buyItems"
+        },
+
+        {
+            "ID": "ironWoodStaff",
+            "actionDescription": "Iron Wood Staff",
+            "Cost": 45,
+            "target": "buyItems"
+        },
+
+        {
+            "ID": "earthQuake",
+            "actionDescription": "Earth Quake Tome",
+            "Cost": 100,
+            "target": "buyItems"
+        },
+
+        {
+            "ID": "stoneToss",
+            "actionDescription": "Stone Toss Tome",
+            "Cost": 80,
+            "target": "buyItems"
+        },
+
+        {
+            "actionDescription": "Back",
+            "target": "Eldaria/Shops/magicShop.json"
+        }
+    ]
+}

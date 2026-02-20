@@ -1,0 +1,13 @@
+{
+    "Attacks":
+    [
+        {"ID": "normal"},
+        {"ID": "light"},
+        {"ID": "heavy"},
+        {"ID": "normal"},
+        {"ID": "magicPunch"},
+        {"ID": "siphon"},
+        {"ID": "fireBall"}
+    ]
+
+}

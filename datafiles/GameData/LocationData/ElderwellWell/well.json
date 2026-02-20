@@ -1,0 +1,19 @@
+{
+    "id": "w1",
+    "type": "well",
+    "name": "Well",
+    "header": "As you swim the light gets brighter! What do you do?",
+
+    "Actions":
+    [
+        {
+            "actionDescription": "Keep Swimming",
+            "target": "swimming"
+        },
+
+        {
+            "actionDescription": "Return to surface",
+            "target": "EldariaNight/towncenter.json"
+        }
+    ]
+}

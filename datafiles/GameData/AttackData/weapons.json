@@ -1,0 +1,429 @@
+{
+    "Weapons": 
+    [
+        {
+            "ID": "woodSword",
+            "Name": "Wooden Sword",
+            "type": "SWORD",
+            "baseDmg": 1.0,
+            "baseMDmg": 0,
+            "baseHealth": 0,
+            "baseMana": 0,
+            "Added Effects": 
+            [
+                {
+                    "ID": "-",
+                    "type": "physical",
+                    "baseDmg": 2,
+                    "critChance": 40
+                }
+            ],
+
+            "Part Colors":
+            [
+                {
+                    "R": 148,
+                    "G": 98,
+                    "B": 72
+                },
+
+                {
+                    "R": 160,
+                    "G": 149,
+                    "B": 143
+                },
+
+                {
+                    "R": 116,
+                    "G": 75,
+                    "B": 32
+                }
+            ],
+
+            "desc": "A wooden sword."
+        },
+
+        {
+            "ID": "woodKatana",
+            "Name": "Wooden Katana",
+            "type": "SWORD",
+            "baseDmg": 2,
+            "baseMDmg": 0,
+            "baseHealth": 0,
+            "baseMana": 0,
+            "Added Effects": 
+            [
+                {
+                   
+                }
+            ],
+
+            "Part Colors":
+            [
+                {
+                    "R": 0,
+                    "G": 0,
+                    "B": 0
+                },
+
+                {
+                    "R": 0,
+                    "G": 0,
+                    "B": 0
+                },
+
+                {
+                    "R": 0,
+                    "G": 0,
+                    "B": 0
+                }
+            ],
+
+            "desc": "A wooden sword."
+        },
+
+        {
+            "ID": "ironWoodKatana",
+            "Name": "Iron Wooden Katana",
+            "type": "SWORD",
+            "baseDmg": 3,
+            "baseMDmg": 0,
+            "baseHealth": 0,
+            "baseMana": 0,
+            "Added Effects": 
+            [
+                {
+                    "ID": "-",
+                    "type": "physical",
+                    "baseDmg": 3,
+                    "critChance": 30
+                }
+            ],
+
+            "Part Colors":
+            [
+                {
+                    "R": 214,
+                    "G": 167,
+                    "B": 101
+                },
+
+                {
+                    "R": 127,
+                    "G": 99,
+                    "B": 60
+                },
+
+                {
+                    "R": 127,
+                    "G": 73,
+                    "B": 0
+                }
+            ],
+
+            "desc": "A wooden sword."
+        },
+
+         {
+            "ID": "steelSword",
+            "Name": "Steel Sword",
+            "type": "SWORD",
+            "baseDmg": 2,
+            "baseMDmg": 0,
+            "baseHealth": 0,
+            "baseMana": 0,
+            "Added Effects": 
+            [
+                {
+                   
+                }
+            ],
+
+            "Part Colors":
+            [
+                {
+                    "R": 0,
+                    "G": 0,
+                    "B": 0
+                },
+
+                {
+                    "R": 0,
+                    "G": 0,
+                    "B": 0
+                },
+
+                {
+                    "R": 0,
+                    "G": 0,
+                    "B": 0
+                }
+            ],
+
+            "desc": "A steel sword."
+        },
+
+        {
+            "ID": "stick",
+            "Name": "Stick",
+            "type": "STAFF",
+            "baseDmg": 1,
+            "baseMDmg": 1,
+            "baseHealth": 0,
+            "baseMana": 5,
+            "Added Effects": 
+            [
+            ],
+
+            "Part Colors":
+            [
+                {
+                    "R": 127,
+                    "G": 99,
+                    "B": 60
+                },
+
+                {
+                    "R": 127,
+                    "G": 99,
+                    "B": 60
+                },
+
+                {
+                    "R": 127,
+                    "G": 99,
+                    "B": 60
+                }
+            ],
+
+            "desc": "A stick from the ground."
+        },
+
+        {
+            "ID": "fist",
+            "Name": "Fist",
+            "type": "FIST",
+            "baseDmg": 1,
+            "baseMDmg": 1,
+            "baseHealth": 0,
+            "baseMana": 0,
+            "Added Effects": 
+            [
+                {
+                    "ID": "-",
+                    "type": "physical",
+                    "baseDmg": 1,
+                    "critChance": 10
+                }
+            ],
+
+            "Part Colors":
+            [
+                {
+                    "R": 0,
+                    "G": 0,
+                    "B": 0
+                },
+
+                {
+                    "R": 0,
+                    "G": 0,
+                    "B": 0
+                },
+
+                {
+                    "R": 0,
+                    "G": 0,
+                    "B": 0
+                }
+            ],
+
+            "desc": "Your fists."
+        },
+
+        {
+            "ID": "shield",
+            "Name": "Shield",
+            "type": "weapon",
+            "baseDmg": 0,
+            "baseMDmg": 0,
+            "baseHealth": 1,
+            "baseMana": 0,
+            "Added Effects": 
+            [
+                {
+                    "ID": "0",
+                    "type": "physical",
+                    "shieldDuration": 2
+                }
+            ],
+
+            "Part Colors":
+            [
+                {
+                    "R": 0,
+                    "G": 0,
+                    "B": 0
+                },
+
+                {
+                    "R": 0,
+                    "G": 0,
+                    "B": 0
+                },
+
+                {
+                    "R": 0,
+                    "G": 0,
+                    "B": 0
+                }
+            ],
+
+            "desc": "A shield for you."
+        },
+
+        {
+            "ID": "oakenShield",
+            "Name": "Oaken Shield",
+            "type": "weapon",
+            "baseDmg": 0,
+            "baseMDmg": 0,
+            "baseHealth": 3,
+            "baseMana": 0,
+            "Added Effects": 
+            [
+            ],
+
+            "Part Colors":
+            [
+                {
+                    "R": 0,
+                    "G": 0,
+                    "B": 0
+                },
+
+                {
+                    "R": 0,
+                    "G": 0,
+                    "B": 0
+                },
+
+                {
+                    "R": 0,
+                    "G": 0,
+                    "B": 0
+                }
+            ],
+
+            "desc": "A shield for you."
+        },
+
+        {
+            "ID": "heartWoodShield",
+            "Name": "Heart Wood Shield",
+            "type": "weapon",
+            "baseDmg": 0,
+            "baseMDmg": 0,
+            "baseHealth": 6,
+            "baseMana": 0,
+            "Added Effects": 
+            [
+            ],
+
+            "Part Colors":
+            [
+                {
+                    "R": 0,
+                    "G": 0,
+                    "B": 0
+                },
+
+                {
+                    "R": 0,
+                    "G": 0,
+                    "B": 0
+                },
+
+                {
+                    "R": 0,
+                    "G": 0,
+                    "B": 0
+                }
+            ],
+
+            "desc": "A shield for you."
+        },
+
+        {
+            "ID": "woodStaff",
+            "Name": "Wooden Staff",
+            "type": "weapon",
+            "baseDmg": 0,
+            "baseMDmg": 1,
+            "baseHealth": 0,
+            "baseMana": 15,
+            "Added Effects": 
+            [
+            ],
+
+            "Part Colors":
+            [
+                {
+                    "R": 0,
+                    "G": 0,
+                    "B": 0
+                },
+
+                {
+                    "R": 0,
+                    "G": 0,
+                    "B": 0
+                },
+
+                {
+                    "R": 0,
+                    "G": 0,
+                    "B": 0
+                }
+            ],
+
+            "desc": "A staff for you."
+        },
+
+        {
+            "ID": "ironWoodStaff",
+            "Name": "Iron Wood Staff",
+            "type": "weapon",
+            "baseDmg": 0,
+            "baseMDmg": 3,
+            "baseHealth": 0,
+            "baseMana": 20,
+            "Added Effects": 
+            [
+            ],
+
+            "Part Colors":
+            [
+                {
+                    "R": 0,
+                    "G": 0,
+                    "B": 0
+                },
+
+                {
+                    "R": 0,
+                    "G": 0,
+                    "B": 0
+                },
+
+                {
+                    "R": 0,
+                    "G": 0,
+                    "B": 0
+                }
+            ],
+
+            "desc": "A better staff for you."
+        }
+    ]
+}

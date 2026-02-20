@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"appendInventory",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"appendInventory",
+  "parent":{
+    "name":"Quests",
+    "path":"folders/Scripts/Quests.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

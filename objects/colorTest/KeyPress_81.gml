@@ -1,0 +1,9 @@
+EquipWeapon("woodSword")
+
+
+
+
+
+
+
+

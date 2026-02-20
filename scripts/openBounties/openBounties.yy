@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"openBounties",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"openBounties",
+  "parent":{
+    "name":"General",
+    "path":"folders/Scripts/Actions/General.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

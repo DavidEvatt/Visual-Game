@@ -1,0 +1,34 @@
+{
+    "id": "d1",
+    "type": "dungeon",
+    "name": "Elderwell Well Dungeon",
+    "header": "As the wooden door opens you see a room with damp cold stone.\nMagic seems to keep the water from exiting the door behind you.",
+
+    "Actions":
+    [
+        {
+            "actionDescription": "<NOT STARTED>",
+            "target": ""
+        },
+
+        {
+            "actionDescription": "<NOT STARTED>",
+            "target": ""
+        },
+
+        {
+            "actionDescription": "<NOT STARTED>",
+            "target": ""
+        } ,
+
+        {
+            "actionDescription": "Leave",
+            "target": "EldariaNight/towncenter.json"
+        }  
+    ],
+
+    "questEffect":
+    [
+       
+    ]
+}

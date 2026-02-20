@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"createWeapon",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"createWeapon",
+  "parent":{
+    "name":"Crafting",
+    "path":"folders/Scripts/Crafting.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

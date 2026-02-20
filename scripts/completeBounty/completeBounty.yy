@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"completeBounty",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"completeBounty",
+  "parent":{
+    "name":"Quests",
+    "path":"folders/Scripts/Quests.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

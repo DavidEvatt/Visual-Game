@@ -1,0 +1,91 @@
+{
+    "owner": "Thalan Oakheart",
+    "id": "s1",
+    "type": "shop",
+    "name": "Oakheart's Brewery",
+    "header": "The shop is clean and tidy almost like everything is polished every day. \n\"What can I do for you?\"",
+    "buyMessage": "I guarantee that these are the cleanest potions around!",
+    "sellMessage": "I'll buy just about anything I can use to make a potion.",
+
+    "sellType": "potion",
+    "secondarySellType": "potion",
+    "region": "Elderwell",
+
+
+    "Actions":
+    [
+        {
+            "actionDescription": "Buy",
+            "target": "openShop"
+        },
+
+        {
+            "actionDescription": "Sell",
+            "target": "sellItems"
+        },
+
+        {
+            "actionDescription": "Look around",
+            "target": "lookAtOakheartsBrew"
+        },
+
+        {
+            "actionDescription": "Leave",
+            "target": "Eldaria/marketCenter.json"
+        }  
+    ],
+
+    "Inventory":
+    [
+        {
+            "ID": "woodKatana",
+            "actionDescription": "Lesser Health Potion",
+            "Cost": 10,
+            "target": "buyItems",
+            "image": "sprLHealth",
+            "total": 2
+        },
+        {
+            "ID": "steelSword",
+            "actionDescription": "Lesser Health Potion",
+            "Cost": 10,
+            "target": "buyItems",
+            "image": "sprLHealth",
+            "total": 2
+        },
+
+        {
+            "ID": "stick",
+            "actionDescription": "Lesser Mana Potions",
+            "Cost": 10,
+            "target": "buyItems",
+            "image": "sprStick",
+            "total": 2
+        },
+
+        {
+            "ID": "ironWoodKatana",
+            "actionDescription": "Iron Wood Katana",
+            "Cost": 20,
+            "target": "buyItems",
+            "image": "sprIronWoodSword",
+            "total": 1
+        },
+
+        {
+            "ID": "woodSword",
+            "actionDescription": "Wood Sword",
+            "Cost": 20,
+            "target": "buyItems",
+            "image": "sprIronWoodSword",
+            "total": 1
+        }
+    ],
+
+     "questEffect":
+    [
+        {
+            "questID": "unstablePotion"
+        }
+    ]
+}

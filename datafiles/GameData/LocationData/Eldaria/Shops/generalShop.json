@@ -1,0 +1,87 @@
+{
+    "owner": "Freya Oakheart",
+    "id": "s2",
+    "type": "shop",
+    "name": "Collector's Emporium",
+    "header": "This shop is piled high with random things strung out around the place. \n\"Hello! What'cha lookin for?\"",
+    "buyMessage": "\"I'm sure there is somethin here for ya.\"",
+    "sellMessage": "\"I'll buy anything as long as its from around here!\"",
+
+    "sellType": "all",
+    "secondarySellType": "all",
+    "region": "Elderwell",
+
+
+    "Actions":
+    [
+        {
+            "actionDescription": "Buy",
+            "target": "openShop"
+        },
+
+        {
+            "actionDescription": "Sell",
+            "target": "sellItems"
+        },
+
+        {
+            "actionDescription": "Rumor <NOT STARTED>",
+            "target": "hearRumor"
+        },
+
+        {
+            "actionDescription": "Leave",
+            "target": "Eldaria/marketCenter.json"
+        }  
+    ],
+
+    "Inventory":
+    [
+        {
+            "ID": "lessHealth",
+            "actionDescription": "Lesser Health Potion",
+            "Cost": 12,
+            "target": "buyItems"
+        },
+
+        {
+            "ID": "oakenShield",
+            "actionDescription": "Oaken Shield",
+            "Cost": 45,
+            "target": "buyItems"
+        },
+
+        {
+            "ID": "wood",
+            "actionDescription": "Piece of Wood",
+            "Cost": 2,
+            "target": "buyItems"
+        },
+
+        {
+            "ID": "rose",
+            "actionDescription": "Red Rose",
+            "Cost": 15,
+            "target": "buyItems"
+        },
+
+        {
+            "ID": "boarTusk",
+            "actionDescription": "Boar's Tusk",
+            "Cost": 20,
+            "target": "buyItems"
+        },
+
+        {
+            "ID": "leaf",
+            "actionDescription": "A Cool Leaf",
+            "Cost": 5,
+            "target": "buyItems"
+        },
+
+        {
+            "actionDescription": "Back",
+            "target": "Eldaria/Shops/generalShop.json"
+        }
+    ]
+}

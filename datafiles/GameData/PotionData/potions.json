@@ -1,0 +1,106 @@
+{
+    "Potions": 
+    [
+        {
+            "ID": "lessHealth",
+            "Name": "Lesser Health Potion",
+            "type": "potion",
+            "image": "sprLHealth",
+            "Effects": 
+            [
+                {
+                    "ID": "+",
+                    "type": "physical",
+                    "BaseHealing": 2
+                }
+            ],
+
+            "desc": "Entry level healing potion"
+        },
+
+        {
+            "ID": "greatHealth",
+            "Name": "Greater Health Potion",
+            "type": "potion",
+            "image": "sprLHealth",
+            "Effects": 
+            [
+                {
+                    "ID": "+",
+                    "type": "physical",
+                    "BaseHealing": 5
+                }
+            ],
+
+            "desc": "Mid level healing potion"
+        },
+
+        {
+            "ID": "lessMana",
+            "Name": "Lesser Mana Potion",
+            "type": "potion",
+            "image": "sprLMana",
+            "Effects": 
+            [
+                {
+                    "ID": "+m",
+                    "type": "physical",
+                    "BaseHealing": 2
+                }
+            ],
+
+            "desc": "Entry level mana potion"
+        },
+
+        {
+            "ID": "greatMana",
+            "Name": "Greater Mana Potion",
+            "type": "potion",
+            "image": "sprLMana",
+            "Effects": 
+            [
+                {
+                    "ID": "+m",
+                    "type": "physical",
+                    "BaseHealing": 5
+                }
+            ],
+
+            "desc": "Mid level mana potion"
+        },
+
+        {
+            "ID": "unstabPot",
+            "Name": "Unstable Potion",
+            "type": "potion",
+            "image": "sprUnstable",
+            "Effects": 
+            [
+                {
+                    "ID": "#",
+                    "type": "magical",
+                    "potionCount": 0
+                }
+            ],
+
+            "desc": "Mid level mana potion"
+        },
+
+        {
+            "ID": "none",
+            "Name": "none",
+            "type": "potion",
+            "image": "sprLMana",
+            "Effects": 
+            [
+                {
+                    "ID": "+",
+                    "type": "physical",
+                    "BaseHealing": 0
+                }
+            ],
+
+            "desc": "Entry level healing potion"
+        }
+    ]
+}

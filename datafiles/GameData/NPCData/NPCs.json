@@ -1,0 +1,100 @@
+{
+    "NPCS":
+    [
+        {
+            "ID": "Thorfin",
+            "Events":
+            [
+                {
+                    "classification": "START",
+                    "xPos": 2895,
+                    "yPos": 1792,
+                    "startTime": 0
+                },
+
+                {
+                    "classification": "WAKEUP",
+                    "xPos": 2100,
+                    "yPos": 1760,
+                    "startTime": 7200
+                },
+
+                {
+                    "classification": "BREAK",
+                    "xPos": 3016,
+                    "yPos": 1760,
+                    "startTime": 10800
+                },
+
+                {
+                    "classification": "WORK",
+                    "xPos": 2100,
+                    "yPos": 1760,
+                    "startTime": 23400
+                },
+
+                {
+                    "classification": "BREAK",
+                    "xPos": 3016,
+                    "yPos": 1760,
+                    "startTime": 27000
+                },
+
+                {
+                    "classification": "WORK",
+                    "xPos": 2100,
+                    "yPos": 1760,
+                    "startTime": 42300
+                },
+
+                {
+                    "classification": "SLEEP",
+                    "xPos": 2895,
+                    "yPos": 1792,
+                    "startTime": 50400
+                }
+            ]
+        },
+
+        {
+            "ID": "Thalan",
+            "Events":
+            [
+                {
+                    "classification": "WAKEUP",
+                    "xPos": 2480,
+                    "yPos": 1513,
+                    "startTime": 0
+                },
+
+                {
+                    "classification": "BREAK",
+                    "xPos": 2100,
+                    "yPos": 1300,
+                    "startTime": 5800
+                },
+
+                {
+                    "classification": "BREAK",
+                    "xPos": 2080,
+                    "yPos": 1700,
+                    "startTime": 7200
+                },
+
+                {
+                    "classification": "WORK",
+                    "xPos": 2480,
+                    "yPos": 1513,
+                    "startTime": 10800
+                },
+
+                {
+                    "classification": "SLEEP",
+                    "xPos": 2480,
+                    "yPos": 1513,
+                    "startTime": 50400
+                }
+            ]
+        }
+    ]
+}

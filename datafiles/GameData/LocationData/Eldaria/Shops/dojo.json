@@ -1,0 +1,76 @@
+{
+    "owner": "Red Smiffle",
+    "id": "s4",
+    "type": "shop",
+    "name": "Red's Dojo",
+    "header": "There are practice swords on the walls and mats along the floor. \"Learning or browsing?\"",
+    "buyMessage": "These will be the best techniques you know!",
+    "sellMessage": "",
+
+    "sellType": "potion",
+    "secondarySellType": "potion",
+    "region": "Elderwell",
+
+
+    "Actions":
+    [
+        {
+            "actionDescription": "Buy",
+            "target": "openShop"
+        },
+        {
+            "actionDescription": "Leave",
+            "target": "Eldaria/marketCenter.json"
+        }  
+    ],
+
+    "Inventory":
+    [
+        {
+            "ID": "woodSword",
+            "actionDescription": "Wooden Sword",
+            "Cost": 15,
+            "target": "buyItems"
+        },
+
+        {
+            "ID": "woodKatana",
+            "actionDescription": "Wooden Katana",
+            "Cost": 16,
+            "target": "buyItems"
+        },
+
+        {
+            "ID": "ironWoodKatana",
+            "actionDescription": "Iron Wood Katana",
+            "Cost": 25,
+            "target": "buyItems"
+        },
+
+        {
+            "ID": "percisionStrike",
+            "actionDescription": "Percision Strike Technique",
+            "Cost": 100,
+            "target": "buyItems"
+        },
+
+        {
+            "ID": "slash",
+            "actionDescription": "Slash Technique",
+            "Cost": 100,
+            "target": "buyItems"
+        },
+
+         {
+            "ID": "grapple",
+            "actionDescription": "Grapple Technique",
+            "Cost": 150,
+            "target": "buyItems"
+        },
+
+        {
+            "actionDescription": "Back",
+            "target": "Eldaria/Shops/dojo.json"
+        }
+    ]
+}

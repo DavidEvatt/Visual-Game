@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"craftingWeaponLogics",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"craftingWeaponLogics",
+  "parent":{
+    "name":"blacksmith",
+    "path":"folders/Scripts/Actions/Eldaria/blacksmith.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,38 @@
+{
+    "id": "s1",
+    "type": "shop",
+    "name": "Shop",
+    "header": "The tavern is full of life and music! You see a sign that says \"20 Coins for a bed.\"\nWhat do you do?",
+    "buyMessage": "20 Coins for a nice bed. Whatcha say?",
+    "sellMessage": "I'll buy just about any material from you!",
+
+    "Actions":
+    [
+        {
+            "actionDescription": "Talk to the bar keep <NOT STARTED>",
+            "target": "barKeepTalk"
+        },
+
+        {
+            "actionDescription": "Talk to the drunkards <NOT STARTED>",
+            "target": "drunkenTalk"
+        },
+
+        {
+            "actionDescription": "Buy a room <NOT STARTED>",
+            "target": "buyRoom"
+        } ,
+
+        {
+            "actionDescription": "Leave",
+            "target": "EldariaNight/town.json"
+        }  
+    ],
+
+    "questEffect":
+    [
+        {
+            "questID": "bottomOfTheWell"
+        }
+    ]
+}

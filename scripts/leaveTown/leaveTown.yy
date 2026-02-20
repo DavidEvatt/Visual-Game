@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"leaveTown",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"leaveTown",
+  "parent":{
+    "name":"Eldaria",
+    "path":"folders/Scripts/Actions/Eldaria.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

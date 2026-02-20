@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"determinePotionEffects",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"determinePotionEffects",
+  "parent":{
+    "name":"Potions",
+    "path":"folders/Scripts/Combat/Potions.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

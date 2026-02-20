@@ -1,0 +1,75 @@
+{
+    "Actions": [
+        {
+            "actionDescription": "Talk to the people",
+            "target": "wellTalk"
+        },
+        {
+            "actionDescription": "Toss a coin in the well",
+            "target": "giveItem",
+            "itemID": "coin",
+            "questID": "none"
+        },
+        {
+            "actionDescription": "Wait till night <not started>",
+            "target": "EldariaNight/townCenter.json"
+        },
+        {
+            "actionDescription": "Leave",
+            "target": "Eldaria/town.json"
+        }
+    ],
+    "header": "People are walking around, talking, and sitting at a well. What do you do?",
+    "id": "tc1",
+    "name": "Town Center",
+    "type": "townCenter",
+
+    "WellMessages":
+    [
+        {
+            "message": "Some say that this well is encahnted.\nA coin for a wish.\nI don't believe it though.\n"
+        },
+        {
+            "message": "I heard that there is a goblin that set up this well.\nIt's all just a ploy so he can get rich!\n"
+        },
+        {
+            "message": "I tossed in a coin and I feel better.\nStronger, faster, luckier, just all of it, better!\n"
+        },
+        {
+            "message": "I wonder what's at the bottom of the well?\nIt just looks like it goes on forever.\n"
+        },
+        {
+            "message": "This well is a curse on the town. People come and throw coins expecting riches.\nI know better!\n"
+        },
+        {
+            "message": "Some say the blacksmith has a secret stash of cursed weapons.\nPersonally, I avoid him.\n"
+        },
+        {
+            "message":  "The wind sometimes carries whispers from the plains.\nI swear I heard my own name once.\n"
+        },
+        {
+            "message": "Old Marlen at the guild keeps muttering about monsters in the cornfields.\nShe scares the children, I tell you.\n"
+        },
+        {
+            "message": "People say the innkeeper's stew can make you dream of things you shouldn't.\nI haven't tried it yet.\n"
+        },
+        {
+            "message": "They say an ancient temple lies hidden in the forest.\nNo one who went looking has ever come back the same.\n"
+        },
+        {
+            "message": "I heard that a traveling bard sold a song that can make goats levitate.\nI haven't seen it work.\n"
+        },
+        {
+            "message": "The windmill at the edge of town sometimes turns backwards.\nThey say it's bad luck, but it seems fine to me.\n"
+        },
+        {
+            "message": "Some say the town well sometimes laughs at fools.\nOthers think it's just the echo.\n"
+        },
+        {
+            "message": "I swear the crows are plotting something.\nEvery time I walk by, they stare.\n"
+        },
+        {
+            "message": "Look! These Rabbits!\nThey are plotting our deaths!\nI tell you, one shot fire!"
+        }
+    ]
+}

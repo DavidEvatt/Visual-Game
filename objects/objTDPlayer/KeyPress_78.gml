@@ -1,0 +1,4 @@
+EquipWeapon("fist")
+
+
+

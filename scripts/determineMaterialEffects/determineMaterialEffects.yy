@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"determineMaterialEffects",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"determineMaterialEffects",
+  "parent":{
+    "name":"Crafting",
+    "path":"folders/Scripts/Crafting.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

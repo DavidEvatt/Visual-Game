@@ -1,0 +1,8 @@
+{
+    "Attacks":
+    [
+        {"ID": "lessHealth"},
+        {"ID": "lessMana"}
+    ]
+
+}

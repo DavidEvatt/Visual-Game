@@ -1,0 +1,39 @@
+{
+    "id": "mc1",
+    "type": "market",
+    "name": "Elderwell Market Square",
+    "header": "The heart of trading in Elderwell with people running from place to place with bags in hand and shops lined making an enclosed square.",
+
+    "Actions":
+    [
+        {
+            "actionDescription": "Oakheart's Brewery",
+            "target": "Eldaria/Shops/potionShop.json"
+        },
+
+        {
+            "actionDescription": "Collector's Emporium",
+            "target": "Eldaria/Shops/generalShop.json"
+        },
+
+        {
+            "actionDescription": "The Stone Shack",
+            "target": "Eldaria/Shops/magicShop.json"
+        },
+
+        {
+            "actionDescription": "Red's Dojo",
+            "target": "Eldaria/Shops/dojo.json"
+        },
+
+        {
+            "actionDescription": "Guild Center",
+            "target": "Eldaria/Shops/guildcenter.json"
+        },
+
+        {
+            "actionDescription": "Back to Entrance",
+            "target": "Eldaria/town.json"
+        }
+    ]
+}

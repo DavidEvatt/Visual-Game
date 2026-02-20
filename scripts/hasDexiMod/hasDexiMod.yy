@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"hasDexiMod",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"hasDexiMod",
+  "parent":{
+    "name":"Combat",
+    "path":"folders/Scripts/Combat.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

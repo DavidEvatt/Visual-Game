@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"tossACoin",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"tossACoin",
+  "parent":{
+    "name":"townCenter",
+    "path":"folders/Scripts/Actions/Eldaria/townCenter.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

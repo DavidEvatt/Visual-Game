@@ -1,0 +1,2 @@
+needsDefinition = false;
+nightTime = false

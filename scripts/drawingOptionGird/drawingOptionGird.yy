@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"drawingOptionGird",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"drawingOptionGird",
+  "parent":{
+    "name":"Drawing",
+    "path":"folders/Scripts/Helper/Drawing.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

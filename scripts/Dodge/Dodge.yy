@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Dodge",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Dodge",
+  "parent":{
+    "name":"Combat",
+    "path":"folders/Scripts/Combat.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

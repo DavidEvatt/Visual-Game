@@ -1,0 +1,30 @@
+{
+    "id": "e1",
+    "type": "encounter",
+    "name": "Elderwell Forest",
+    "header": "The town fades behind you as trees envelope your view",
+    "region": "Elderwell",
+
+    "Actions":
+    [
+        {
+            "actionDescription": "Keep heading north <NOT DONE>",
+            "target": ""
+        },
+
+        {
+            "actionDescription": "Explore the Woods <NOT DONE>",
+            "target": "efEncounter"
+        },
+
+        {
+            "actionDescription": "Forage for Materials",
+            "target": "efForage"
+        },
+
+        {
+            "actionDescription": "Head South",
+            "target": "Eldaria/town.json"
+        }
+    ]
+}

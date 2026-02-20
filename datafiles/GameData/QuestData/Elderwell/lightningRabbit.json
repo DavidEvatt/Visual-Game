@@ -1,0 +1,72 @@
+{
+    "id": "lightningRabbit",
+    "type": "Quest",
+    "name": "Lightning Rabbit Quest",
+
+    "currentState": 0,
+
+    "states":
+    [
+        {
+            "id": "intro",
+            "messages":
+            [
+                {
+                    "message": "There is some kind of lightning rabbit in the woods!"
+                }
+            ],
+
+            "appendActions":
+            [
+                {
+                    "actionDescription": "Ask about the lightning rabbit",
+                    "target": "acceptLightningRabbitQuest",
+                    "advanceState": true
+                }
+            ]
+        },
+
+        {
+            "id": "collectFoot",
+            "messages":
+            [
+                {
+                    "message": "Find the lightning rabbit’s foot and bring it to the blacksmith."
+                }
+            ],
+
+            "advanceOn":
+            {
+                "type": "item",
+                "target": "rabbitsFoot"
+            }
+        },
+
+        {
+            "id": "returnToBlacksmith",
+            "messages":
+            [
+                {
+                    "message": "The blacksmith eyes the lightning rabbit’s foot with interest."
+                }
+            ],
+
+            "appendActions":
+            [
+                {
+                    "actionDescription": "Give the lightning rabbit’s foot to the blacksmith",
+                    "target": "giveRabbitFoot",
+                    "advanceState": true
+                }
+            ],
+
+            "rewards":
+            [
+                {
+                    "type": "gold",
+                    "amount": 50
+                }
+            ]
+        }
+    ]
+}

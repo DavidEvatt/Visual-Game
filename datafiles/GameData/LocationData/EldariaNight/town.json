@@ -1,0 +1,44 @@
+{
+    "id": "t1n",
+    "type": "town",
+    "name": "Town",
+    "header": "Welcome to Town. What do you do?",
+
+    "Actions":
+    [
+        {
+            "actionDescription": "Blacksmith <NOT STARTED>",
+            "target": "EldariaNight/blacksmith.json"
+        },
+
+        {
+            "actionDescription": "Shop <NOT STARTED>",
+            "target": "EldariaNight/shop.json"
+        },
+
+        {
+            "actionDescription": "Guild Center <NOT STARTED>",
+            "target": "EldariaNight/guildcenter.json"
+        },
+
+        {
+            "actionDescription": "Town Center",
+            "target": "EldariaNight/townCenter.json"
+        },
+
+        {
+            "actionDescription": "Tavern <NOT STARTED>",
+            "target": "EldariaNight/tavern.json"
+        },
+
+        {
+            "actionDescription": "Leave Town",
+            "target": "EldariaNight/outsideElderwell.json"
+        },
+
+        {
+            "actionDescription": "Save + Quit",
+            "target": "saveQuit"
+        }
+    ]
+}
