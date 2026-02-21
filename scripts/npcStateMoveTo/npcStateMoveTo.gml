@@ -22,11 +22,11 @@ function npcStateMoveTo()
 		
 			var leaveTime =  ds_list_find_value(schedule, eventPosition)[? "startTime"] - (path_get_length(path) / pathSpd);
 		
-			show_debug_message(leaveTime)
+			//show_debug_message(leaveTime)
 			
 			if(objSun.currentTime >= leaveTime && needsPlace)
 			{
-				show_debug_message("Setting a new path");
+				//show_debug_message("Setting a new path");
 				path_start(path, pathSpd, path_action_stop, 0)
 				needsPlace = false;
 			}
@@ -36,9 +36,11 @@ function npcStateMoveTo()
 		{
 			if(needsPlace)
 			{
-				show_debug_message("Returning to path");
+				//show_debug_message("Returning to path");
 				var path = path_add();
-				mp_grid_path(objGameController.worldMap, path, x, y, tempHomeX, tempHomeY, true);
+				newX = tempHomeX;
+				newY = tempHomeY
+				mp_grid_path(objGameController.worldMap, path, x, y, newX, newY, true);
 				path_start(path, pathSpd, path_action_stop, 0)
 				needsPlace = false;
 			}
@@ -52,7 +54,7 @@ function npcStateMoveTo()
 		var distractionChance = irandom_range(0, 100);
 		if(!distracted && ADHD <= 0 && dps <= 0)
 		{
-			show_debug_message(string(distractionChance) + " | " + string(attentionSpan))
+			//show_debug_message(string(distractionChance) + " | " + string(attentionSpan))
 			if(distractionChance >= attentionSpan)
 			{
 				path_end();

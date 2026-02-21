@@ -4,12 +4,12 @@ function npcStateDistracted()
 {
 	if(tempHomeX != undefined && tempHomeY != undefined)
 	{	
-		show_debug_message("Temp Home variables are existing")
-		show_debug_message("HoldNewSpot: " + string(holdNewSpotTimer) + " | MovingSpot: " + string(movingToSpot))
+		//show_debug_message("Temp Home variables are existing")
+		//show_debug_message("HoldNewSpot: " + string(holdNewSpotTimer) + " | MovingSpot: " + string(movingToSpot))
 		//check if we have been at our spot long enough
 		if(holdNewSpotTimer <= 0 && !movingToSpot)
 		{
-			show_debug_message("holdSpot should be less than 0 and we are not movingSpot")
+			//show_debug_message("holdSpot should be less than 0 and we are not movingSpot")
 			//Check the direcction
 			var northSouth = irandom(2);
 			var eastWest = irandom(2);
@@ -53,7 +53,7 @@ function npcStateDistracted()
 				newX = x;
 			}
 			
-			show_debug_message("creating a new path towards (" + string(newX), + ", " + string(newY))
+			//show_debug_message("creating a new path towards (" + string(newX), + ", " + string(newY))
 			var path = path_add();
 			mp_grid_path(objGameController.worldMap, path, x, y, newX, newY, true);
 			

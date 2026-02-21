@@ -12,6 +12,10 @@ maxTalkLength = 300;
 
 reset = false
 working = false;
+awake = false
+startDay = false
+
+stateVarb = "IDLE"
 
 currentState = NPCSTATE.IDLE
 

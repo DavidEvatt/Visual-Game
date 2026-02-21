@@ -9,7 +9,7 @@ nightStarts = 50400
 
 portionTimer = 0;
 
-currentTime = 4000;
+currentTime = 2000;
 
 alphaVal = 0;
 

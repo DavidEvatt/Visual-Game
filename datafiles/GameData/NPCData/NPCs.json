@@ -6,42 +6,42 @@
             "Events":
             [
                 {
-                    "classification": "START",
+                    "classification": "WAKEUP",
                     "xPos": 2895,
                     "yPos": 1792,
-                    "startTime": 0
+                    "startTime": 6200
                 },
 
                 {
-                    "classification": "WAKEUP",
+                    "classification": "BREAK",
                     "xPos": 2100,
                     "yPos": 1760,
                     "startTime": 7200
                 },
 
                 {
-                    "classification": "BREAK",
+                    "classification": "WORK",
                     "xPos": 3016,
                     "yPos": 1760,
                     "startTime": 10800
                 },
 
                 {
-                    "classification": "WORK",
+                    "classification": "ENDWORK",
                     "xPos": 2100,
                     "yPos": 1760,
                     "startTime": 23400
                 },
 
                 {
-                    "classification": "BREAK",
+                    "classification": "WORK",
                     "xPos": 3016,
                     "yPos": 1760,
                     "startTime": 27000
                 },
 
                 {
-                    "classification": "WORK",
+                    "classification": "ENDWORK",
                     "xPos": 2100,
                     "yPos": 1760,
                     "startTime": 42300
@@ -64,7 +64,7 @@
                     "classification": "WAKEUP",
                     "xPos": 2480,
                     "yPos": 1513,
-                    "startTime": 0
+                    "startTime": 4800
                 },
 
                 {

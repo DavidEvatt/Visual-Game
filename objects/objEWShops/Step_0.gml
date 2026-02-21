@@ -14,8 +14,8 @@ else {depth = 0;}
 
 
 curNPCEvent = ds_list_find_value(npcFollow.schedule, npcFollow.eventPosition);
-show_debug_message(curNPCEvent[? "classification"])
-if(curNPCEvent[? "classification"] == "WORK")
+//show_debug_message(curNPCEvent[? "classification"])
+if(curNPCEvent[? "classification"] == "ENDWORK")
 {
 	open = true;
 }

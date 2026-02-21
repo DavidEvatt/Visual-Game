@@ -1,3 +1,5 @@
+//show_debug_message("Current Time : " + string(currentTime))
+
 if(currentTime <= maxDayTime)
 {
 	currentTime++;	
