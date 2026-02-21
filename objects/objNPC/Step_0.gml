@@ -22,7 +22,14 @@ if(ds_list_find_value(schedule, eventPosition)[? "classification"] == "WORK")
 	}
 }
 
-else if(working){working = false;}
+
+if(working && ds_list_find_value(schedule, eventPosition)[? "classification"] != "WORK")
+{
+	if(objSun.currentTime >= ds_list_find_value(schedule, eventPosition)[? "startTime"])
+	{
+		if(working){working = false;}
+	}
+}
 
 if(currentState != NPCSTATE.IDLE)
 {
