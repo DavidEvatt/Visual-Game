@@ -14,8 +14,10 @@ if(!working)
 		case NPCSTATE.MOVE: npcStateMoveTo(); stateVarb = "MOVE"; break;
 		case NPCSTATE.DISTRACTED: npcStateDistracted(); stateVarb = "DISTRACTED" break;
 		case NPCSTATE.IDLE: stateVarb = "IDLE"; break;
+		case NPCSTATE.TALK: stateVarb = "NPCTALK"; break;
 	}
 }
+
 
 
 #region Decrements
@@ -33,7 +35,12 @@ if(!working)
 	}
 
 	if(talkLength > 0){talkLength--;}
-	else if(talkLength <= 0 && path_speed == 0){path_speed = pathSpd;  currentState = NPCSTATE.MOVE}
+	else if(talkLength <= 0 && path_speed == 0)
+	{
+		path_speed = pathSpd; 
+		dps = 600;
+		currentState = NPCSTATE.MOVE
+	}
 #endregion
 
 #region Event and Sun Things
@@ -102,28 +109,28 @@ if(!working)
 	{
 		if(movingToSpot)
 		{
-			show_debug_message("Firing the movingSpot Loop");
+			//show_debug_message("Firing the movingSpot Loop");
 			holdNewSpotTimer = newSpotTimer;
 			movingToSpot = false
 		}
 	
 		if(reset)
 		{
-			show_debug_message("Firing the reset Loop");
+			//show_debug_message("Firing the reset Loop");
 			reset = false;
 			needsPlace = true;
 		}
 	
 		if(!atPlace)
 		{
-			show_debug_message("Firing the not AtPlace Loop");
+			//show_debug_message("Firing the not AtPlace Loop");
 			atPlace = true;
 			needsPlace = true;
 		}
 	
 		if(distracted && ADHD <= 0)
 		{
-			show_debug_message("Inside the distracted and ADHD <= 0 Loop");
+			//show_debug_message("Inside the distracted and ADHD <= 0 Loop");
 			distracted = false;	
 			needsPlace = true;
 		}	
@@ -140,7 +147,7 @@ if(!working)
 			if(!working){working = true};	
 		}
 		
-		else
+		if(ds_list_find_value(schedule, eventPosition)[? "startTime"] <= objSun.currentTime)
 		{
 			if(working){working = false};	
 		}

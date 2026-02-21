@@ -6,7 +6,9 @@
   ],
   "managed":true,
   "name":"objBlacksmith",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"buildingParent","path":"objects/buildingParent/buildingParent.yy",},"propertyId":{"name":"npcName","path":"objects/buildingParent/buildingParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"none",},
+  ],
   "parent":{
     "name":"Elderwell",
     "path":"folders/Objects/TopDown/Elderwell.yy",

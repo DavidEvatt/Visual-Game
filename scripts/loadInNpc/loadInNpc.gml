@@ -24,6 +24,7 @@ function loadInNpc(ID)
 		{
 			var curNPC = ds_list_find_value(npcs, i)
 			
+			//found the right npc
 			if(ID == curNPC[? "ID"])
 			{
 				var events = curNPC[? "Events"];
@@ -34,12 +35,17 @@ function loadInNpc(ID)
 				
 				else 
 				{
-					show_debug_message("Event at 0 is not Undefined");
 					var event0 = ds_list_find_value(events, 0);
-					show_debug_message(string(event0[? "startTime"]));
 				}
 				
 				schedule = events;
+				
+				
+				trailBlaze = curNPC[? "trailBlaze"];
+				maxADHD = curNPC[? "maxADHD"];
+				maxTalkLength = curNPC[? "maxTalkLength"];
+				attentionSpan = curNPC[? "attentionSpan"]
+				talkingRange = curNPC[? "talkingRange"];
 			}
 			
 		}

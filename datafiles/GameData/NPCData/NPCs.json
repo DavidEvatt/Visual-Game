@@ -3,6 +3,11 @@
     [
         {
             "ID": "Thorfin",
+            "trailBlaze": false,
+            "maxADHD": 600,
+            "maxTalkLength": 300,
+            "attentionSpan": 75,
+            "talkingRange": 120,
             "Events":
             [
                 {
@@ -20,7 +25,7 @@
                 },
 
                 {
-                    "classification": "WORK",
+                    "classification": "WORKNEXT",
                     "xPos": 3016,
                     "yPos": 1760,
                     "startTime": 10800
@@ -34,7 +39,7 @@
                 },
 
                 {
-                    "classification": "WORK",
+                    "classification": "WORKNEXT",
                     "xPos": 3016,
                     "yPos": 1760,
                     "startTime": 27000
@@ -58,6 +63,11 @@
 
         {
             "ID": "Thalan",
+            "trailBlaze": false,
+            "maxADHD": 600,
+            "maxTalkLength": 300,
+            "attentionSpan": 75,
+            "talkingRange": 120,
             "Events":
             [
                 {
@@ -82,16 +92,104 @@
                 },
 
                 {
-                    "classification": "WORK",
+                    "classification": "WORKNEXT",
                     "xPos": 2480,
                     "yPos": 1513,
                     "startTime": 10800
                 },
 
                 {
+                    "classification": "ENDWORK",
+                    "xPos": 2080,
+                    "yPos": 1700,
+                    "startTime": 23400
+                },
+
+                {
+                    "classification": "WORKNEXT",
+                    "xPos": 2480,
+                    "yPos": 1513,
+                    "startTime": 27000
+                },
+
+                {
+                    "classification": "ENDWORK",
+                    "xPos": 2100,
+                    "yPos": 1760,
+                    "startTime": 42300
+                },
+
+                {
                     "classification": "SLEEP",
                     "xPos": 2480,
                     "yPos": 1513,
+                    "startTime": 50400
+                }
+            ]
+        },
+
+        {
+            "ID": "Lance",
+            "trailBlaze": true,
+            "maxADHD": 600,
+            "maxTalkLength": 400,
+            "attentionSpan": 30,
+            "talkingRange": 30,
+            "Events":
+            [
+                {
+                    "classification": "WAKEUP",
+                    "xPos": 3490,
+                    "yPos": 1580,
+                    "startTime": 10800
+                },
+
+                {
+                    "classification": "BREAK",
+                    "xPos": 3020,
+                    "yPos": 1770,
+                    "startTime": 12000
+                },
+
+                {
+                    "classification": "BREAK",
+                    "xPos": 2480,
+                    "yPos": 1890,
+                    "startTime": 16000
+                },
+
+                {
+                    "classification": "BREAK",
+                    "xPos": 2100,
+                    "yPos": 1790,
+                    "startTime": 18000
+                },
+
+                {
+                    "classification": "BREAK",
+                    "xPos": 1825,
+                    "yPos": 1400,
+                    "startTime": 25000
+                },
+
+                {
+                    "classification": "BREAK",
+                    "xPos": 2600,
+                    "yPos": 1470,
+                    "startTime": 30000
+                },
+
+                {
+                    "classification": "BREAK",
+                    "xPos": 2100,
+                    "yPos": 650,
+                    "startTime": 40000
+                },
+
+                {
+                    "classification": "SLEEP",
+                    "xPos": 3490,
+                    "yPos": 1580,
                     "startTime": 50400
                 }
             ]

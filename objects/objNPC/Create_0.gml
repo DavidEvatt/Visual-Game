@@ -35,13 +35,12 @@ location = [];
 array_push(location, 2)
 array_push(location, 6)
 
-schedule = ds_list_create();
-loadInNpc(whoAmI)
+
 
 eventPosition = 0;
 
 
-attentionSpan = 75
+attentionSpan = 0
 
 talkingRange = 120;
 
@@ -62,3 +61,7 @@ newY = y;
 distracted = false
 
 moveRange48 = 1.5
+
+//load in schedule
+schedule = ds_list_create();
+loadInNpc(whoAmI)

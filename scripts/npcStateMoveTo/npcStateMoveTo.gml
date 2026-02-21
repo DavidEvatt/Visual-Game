@@ -51,6 +51,7 @@ function npcStateMoveTo()
 	#endregion
 	
 	#region Distraction Logic
+	
 		var distractionChance = irandom_range(0, 100);
 		if(!distracted && ADHD <= 0 && dps <= 0)
 		{
@@ -66,19 +67,40 @@ function npcStateMoveTo()
 				ADHD = maxADHD;
 				currentState = NPCSTATE.DISTRACTED;
 			}
-			
-			else {dps = 300;}
 		}
 	#endregion
 	
 	#region Talking Logic
-		/*distractionChance = irandom_range(0, 100);
-		var npc = instance_nearest(x, y, objNPC);
-		if(distractionChance <= attentionSpan && distance_to_object(npc) <= talkingRange && npc != id)
+		
+		distractionChance = irandom_range(0, 100);
+		var npc = noone
+		
+		with(objNPC)
 		{
-			talkLength = maxTalkLength;
-			path_speed = 0;
-			currentState = NPCSTATE.DISTRACTED;
-		}*/
+			var dist = point_direction(x, y, other.x, other.y)
+			
+			if(dist <= talkingRange)
+			{
+				npc = instance_nearest(x + dist, y + dist, objNPC);
+			}
+		}	
+		
+		if(npc.id = id){npc = noone}
+		
+		if(npc != noone)
+		{
+			if(distractionChance >= attentionSpan && distance_to_object(npc) <= talkingRange && npc != noone && dps <= 0)
+			{
+				npc.talkLength = npc.maxTalkLength;
+				npc.path_speed = 0;
+				npc.currentState = NPCSTATE.TALK;
+			
+				talkLength = maxTalkLength;
+				path_speed = 0;
+				currentState = NPCSTATE.TALK;
+			}
+			
+			else {dps = 300;}
+		}
 	#endregion
 }
