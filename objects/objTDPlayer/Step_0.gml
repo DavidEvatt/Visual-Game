@@ -64,6 +64,21 @@ if(room != Room1)
 	{
 		mana += manaRegen;	
 	}
+	
+	if(talkingToNpc)
+	{
+		var npc = instance_nearest(x,y ,objNPC);
+		
+		if(distance_to_object(npc) >= talkingRange)
+		{
+			if(npc.currentState == NPCSTATE.TALKTOPLAYER)
+			{
+				npc.path_speed = npc.pathSpd;
+				talkingToNpc = false;	
+				npc.currentState = NPCSTATE.MOVE;
+			}	
+		}
+	}
 }
 
 

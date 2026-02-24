@@ -1,9 +1,7 @@
 if(!is_undefined(shop))
 {
-	show_debug_message("Shop is not undefined")
 	if(shop.open)
 	{
-		show_debug_message("Shop is open")
 		if(place_meeting(x, y, objTDPlayer))
 		{
 			if(room != target)
@@ -18,11 +16,6 @@ if(!is_undefined(shop))
 			}
 			shop = undefined
 		}
-	}
-
-	else
-	{
-		show_debug_message("Shop Is locked")
 	}
 }
 

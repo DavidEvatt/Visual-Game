@@ -144,6 +144,7 @@
     {"$GMIncludedFile":"","%Name":"playerSave.json","CopyToMask":-1,"filePath":"datafiles/PlayerData","name":"playerSave.json","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"potionKnowledge.json","CopyToMask":-1,"filePath":"datafiles/PlayerData","name":"potionKnowledge.json","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"questsSave.json","CopyToMask":-1,"filePath":"datafiles/PlayerData","name":"questsSave.json","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"reputations.json","CopyToMask":-1,"filePath":"datafiles/PlayerData","name":"reputations.json","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
   "isEcma":false,
   "LibraryEmitters":[],

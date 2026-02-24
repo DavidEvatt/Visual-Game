@@ -15,31 +15,43 @@ if(!working)
 		case NPCSTATE.DISTRACTED: npcStateDistracted(); stateVarb = "DISTRACTED" break;
 		case NPCSTATE.IDLE: stateVarb = "IDLE"; break;
 		case NPCSTATE.TALK: stateVarb = "NPCTALK"; break;
+		case NPCSTATE.TALKTOPLAYER: stateVarb = "PLAYERTALK"; break;
 	}
 }
 
-
-
 #region Decrements
-	if(holdNewSpotTimer > 0){holdNewSpotTimer--;}
-	if(dps > 0){dps--;}
-	if(ADHD > 0){ADHD--;}
-	else if(ADHD == 0)
+	if(currentState != NPCSTATE.TALKTOPLAYER)
 	{
-		dps = 600;
-		movingToSpot = false
-		currentState = NPCSTATE.MOVE
-		needsPlace = true;
-		ADHD = -1;
-		reset = true
-	}
+		if(holdNewSpotTimer > 0){holdNewSpotTimer--;}
+		if(dps > 0){dps--;}
+		if(ADHD > 0){ADHD--;}
+		else if(ADHD == 0)
+		{
+			dps = 600;
+			movingToSpot = false
+			currentState = NPCSTATE.MOVE
+			needsPlace = true;
+			ADHD = -1;
+			reset = true
+		}
 
-	if(talkLength > 0){talkLength--;}
-	else if(talkLength <= 0 && path_speed == 0)
+		if(talkLength > 0){talkLength--;}
+		else if(talkLength <= 0 && path_speed == 0)
+		{
+			path_speed = pathSpd; 
+			dps = 600;
+			currentState = NPCSTATE.MOVE
+		}
+		
+		if(needsText == false){needsText = true};
+	}
+	
+	else
 	{
-		path_speed = pathSpd; 
-		dps = 600;
-		currentState = NPCSTATE.MOVE
+		if (charCount < string_length(dialougeOption)) 
+		{
+		    charCount += typeSpd;
+		}	
 	}
 #endregion
 

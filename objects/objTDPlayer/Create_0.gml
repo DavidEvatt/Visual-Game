@@ -144,3 +144,8 @@ storeX = 0;
 storeY = 0;
 
 manaRegen = 0.009;
+
+talkingToNpc = false;
+talkingRange = 120;
+
+reputation = 4;

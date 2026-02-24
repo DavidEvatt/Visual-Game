@@ -27,6 +27,8 @@ function loadInNpc(ID)
 			//found the right npc
 			if(ID == curNPC[? "ID"])
 			{
+				npcData = curNPC;
+				
 				var events = curNPC[? "Events"];
 				if(is_undefined(ds_list_find_value(events, 0)))
 				{

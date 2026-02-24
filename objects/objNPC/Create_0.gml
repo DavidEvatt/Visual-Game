@@ -44,6 +44,10 @@ attentionSpan = 0
 
 talkingRange = 120;
 
+needsText = true;
+dialougeOption = "";
+charCount = 0;
+typeSpd = 0.4; // Characters per frame
 
 //Variables to make distracted state work
 tempHomeX = undefined;

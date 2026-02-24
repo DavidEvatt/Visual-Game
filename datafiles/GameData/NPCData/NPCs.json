@@ -58,6 +58,94 @@
                     "yPos": 1792,
                     "startTime": 50400
                 }
+            ],
+
+            "PlayerDialouge":
+            [
+                {
+                    "RepMessage":
+                    [
+                        {
+                            "message": "Why would you want me to waste my precious materials on you?"
+                        },
+
+                        {
+                            "message": "Look you don't deserve a weapon of my craft"
+                        },
+
+                        {
+                            "message": "I removed all the items from my shop for a reason!"
+                        }
+                    ]
+                },
+
+                {
+                    "RepMessage":
+                    [
+                        {
+                            "message": "Honestly I'm starting to not like you."
+                        },
+
+                        {
+                            "message": "I guess I could craft something for you"
+                        },
+
+                        {
+                            "message": "Are you sure you feel like you belong here?"
+                        }
+                    ]
+                },
+
+                {
+                    "RepMessage":
+                    [
+                        {
+                            "message": "Hello Traveler! Anything I could craft?"
+                        },
+
+                        {
+                            "message": "You're new here? Well I've got the best weapons"
+                        },
+
+                        {
+                            "message": "I don't know that I've seen you before."
+                        }
+                    ]
+                },
+
+                {
+                    "RepMessage":
+                    [
+                        {
+                            "message": "Welcome back! If you want me to craft annything, just let me know"
+                        },
+
+                        {
+                            "message": "I hope my weapons are serving you well out there"
+                        },
+
+                        {
+                            "message": "Bring me some exotic materials to work with next time!"
+                        }
+                    ]
+                },
+
+                {
+                    "RepMessage":
+                    [
+                        {
+                            "message": "Thanks to you, I've improved my skills and made more things!"
+                        },
+
+                        {
+                            "message": "How are your travels out there in the wide world?"
+                        },
+
+                        {
+                            "message": "Come by anytime for a talk!"
+                        }
+                    ]
+                }
             ]
         },
 
@@ -125,7 +213,99 @@
                     "yPos": 1513,
                     "startTime": 50400
                 }
-            ]
+            ],
+            
+            "PlayerDialouge":
+            [
+                {
+                    "RepMessage":
+                    [
+                        {
+                            "message": "Don't Touch anything in my shop! I don't want to clean it again!"
+                        },
+
+                        {
+                            "message": "God its You"
+                        },
+
+                        {
+                            "message": "Just Leave"
+                        }
+                    ]
+                },
+
+                {
+                    "RepMessage":
+                    [
+                        {
+                            "message": "You make a mess everywhere you go!"
+                        },
+
+                        {
+                            "message": "Why do you keep coming back here."
+                        },
+
+                        {
+                            "message": "My potions are great but don't waste them."
+                        }
+                    ]
+                },
+
+                {
+                    "RepMessage":
+                    [
+                        {
+                            "message": "If you're new here, I made the best potions in the area"
+                        },
+
+                        {
+                            "message": "If you come to my shop, just make sure you wipe your hoofs off first"
+                        },
+
+                        {
+                            "message": "What's the world like out there?"
+                        }
+                    ]
+                },
+
+                {
+                    "RepMessage":
+                    [
+                        {
+                            "message": "Welcome back! I've got potions if you need them"
+                        },
+
+                        {
+                            "message": "Noticed your hooves are wiped clean. Does that mean your looking to buy potions?"
+                        },
+
+                        {
+                            "message": "I test all my potions to make sure they are safe for you!"
+                        }
+                    ]
+                },
+
+                {
+                    "RepMessage":
+                    [
+                        {
+                            "message": "Thanks to your data, I have been able to make many concoctions"
+                        },
+
+                        {
+                            "message": "Don't worry about wiping those hooves when you come in, I can clean it!"
+                        },
+
+                        {
+                            "message": "Only the best potions for you!"
+                        }
+                    ]
+                }
+            ],
+
+            "NPCDialouge":
+            []
+
         },
 
         {
