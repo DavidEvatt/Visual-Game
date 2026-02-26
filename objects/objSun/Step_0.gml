@@ -41,7 +41,7 @@ else if(currentTime >= nightStarts)
 {
 	if(portionTimer != 0){portionTimer = 0;}
 	if(!global.night){global.night = true;}
-	alphaVal = dayStart * 0.8;
+	alphaVal = (nightStarts * 0.90) / nightStarts;
 }
 
 
