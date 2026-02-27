@@ -8,55 +8,254 @@
             "maxTalkLength": 300,
             "attentionSpan": 75,
             "talkingRange": 120,
+
+            "wakeUpTime": 10800,
+            "sleepTime": 52200,
+            "nocturnal": false,
+
             "Events":
             [
                 {
                     "classification": "WAKEUP",
-                    "xPos": 2895,
-                    "yPos": 1792,
-                    "startTime": 6200
-                },
-
-                {
-                    "classification": "BREAK",
-                    "xPos": 2100,
-                    "yPos": 1760,
-                    "startTime": 7200
-                },
-
-                {
-                    "classification": "WORKNEXT",
-                    "xPos": 3016,
-                    "yPos": 1760,
+                    "xPos": 4179,
+                    "yPos": 4039,
                     "startTime": 10800
                 },
 
                 {
-                    "classification": "ENDWORK",
-                    "xPos": 2100,
-                    "yPos": 1760,
-                    "startTime": 23400
+                    "classification": "BREAK",
+                    "xPos": 3520,
+                    "yPos": 3700,
+                    "startTime": 12600
                 },
 
                 {
                     "classification": "WORKNEXT",
-                    "xPos": 3016,
-                    "yPos": 1760,
-                    "startTime": 27000
+                    "xPos": 4222,
+                    "yPos": 4025,
+                    "startTime": 14400
                 },
 
                 {
                     "classification": "ENDWORK",
-                    "xPos": 2100,
-                    "yPos": 1760,
-                    "startTime": 42300
+                    "xPos": 3645,
+                    "yPos": 3745,
+                    "startTime": 25200
+                },
+
+                {
+                    "classification": "BREAK",
+                    "xPos": 4415,
+                    "yPos": 3680,
+                    "startTime": 27000
+                },
+
+                {
+                    "classification": "WORKNEXT",
+                    "xPos": 4222,
+                    "yPos": 4025,
+                    "startTime": 28800
+                },
+
+                {
+                    "classification": "ENDWORK",
+                    "xPos": 3586,
+                    "yPos": 3678,
+                    "startTime": 41400
+                },
+
+                {
+                    "classification": "BREAK",
+                    "xPos": 3362,
+                    "yPos": 3625,
+                    "startTime": 46800
                 },
 
                 {
                     "classification": "SLEEP",
-                    "xPos": 2895,
-                    "yPos": 1792,
-                    "startTime": 50400
+                    "xPos": 4095,
+                    "yPos": 4016,
+                    "startTime": 52200
+                }
+            ],
+
+            "PlayerDialouge":
+            [
+                {
+                    "RepMessage":
+                    [
+                        {
+                            "message": "Why would you want me to waste my precious materials on you?"
+                        },
+
+                        {
+                            "message": "Look you don't deserve a weapon of my craft"
+                        },
+
+                        {
+                            "message": "I removed all the items from my shop for a reason!"
+                        }
+                    ]
+                },
+
+                {
+                    "RepMessage":
+                    [
+                        {
+                            "message": "Honestly I'm starting to not like you."
+                        },
+
+                        {
+                            "message": "I guess I could craft something for you"
+                        },
+
+                        {
+                            "message": "Are you sure you feel like you belong here?"
+                        }
+                    ]
+                },
+
+                {
+                    "RepMessage":
+                    [
+                        {
+                            "message": "Hello Traveler! Anything I could craft?"
+                        },
+
+                        {
+                            "message": "You're new here? Well I've got the best weapons"
+                        },
+
+                        {
+                            "message": "I don't know that I've seen you before."
+                        }
+                    ]
+                },
+
+                {
+                    "RepMessage":
+                    [
+                        {
+                            "message": "Welcome back! If you want me to craft annything, just let me know"
+                        },
+
+                        {
+                            "message": "I hope my weapons are serving you well out there"
+                        },
+
+                        {
+                            "message": "Bring me some exotic materials to work with next time!"
+                        }
+                    ]
+                },
+
+                {
+                    "RepMessage":
+                    [
+                        {
+                            "message": "Thanks to you, I've improved my skills and made more things!"
+                        },
+
+                        {
+                            "message": "How are your travels out there in the wide world?"
+                        },
+
+                        {
+                            "message": "Come by anytime for a talk!"
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "ID": "Thorbin",
+            "trailBlaze": false,
+            "maxADHD": 600,
+            "maxTalkLength": 300,
+            "attentionSpan": 75,
+            "talkingRange": 120,
+
+            "wakeUpTime": 28800,
+            "sleepTime": 14400,
+            "nocturnal": true,
+
+            "Events":
+            [
+                {
+                    "classification": "AWAKE",
+                    "xPos": 3277,
+                    "yPos": 4401,
+                    "startTime": 0
+                },
+                {
+                    "classification": "BREAK",
+                    "xPos": 2800,
+                    "yPos": 3485,
+                    "startTime": 7200
+                },
+
+                {
+                    "classification": "BREAK",
+                    "xPos": 3486,
+                    "yPos": 3681,
+                    "startTime": 10800
+                },
+
+                {
+                    "classification": "SLEEP",
+                    "xPos": 2862,
+                    "yPos": 4032,
+                    "startTime": 14400
+                },
+
+                {
+                    "classification": "WAKEUP",
+                    "xPos": 2682,
+                    "yPos": 4032,
+                    "startTime": 28800
+                },
+
+                {
+                    "classification": "BREAK",
+                    "xPos": 2676,
+                    "yPos": 4236,
+                    "startTime": 32400
+                },
+
+                {
+                    "classification": "BREAK",
+                    "xPos": 3542,
+                    "yPos": 3707,
+                    "startTime": 39600
+                },
+
+                {
+                    "classification": "WORKNEXT",
+                    "xPos": 4222,
+                    "yPos": 4018,
+                    "startTime": 46800
+                },
+
+                {
+                    "classification": "ENDWORK",
+                    "xPos": 4519,
+                    "yPos": 4073,
+                    "startTime": 57600
+                },
+
+                {
+                    "classification": "WORKNEXT",
+                    "xPos": 4222,
+                    "yPos": 4018,
+                    "startTime": 61200
+                },
+
+                {
+                    "classification": "ENDWORK",
+                    "xPos": 3277,
+                    "yPos": 4401,
+                    "startTime": 75600
                 }
             ],
 
@@ -156,61 +355,67 @@
             "maxTalkLength": 300,
             "attentionSpan": 75,
             "talkingRange": 120,
+            
+            "wakeUpTime": 5400,
+            "sleepTime": 50400,
+
+            "nocturnal": false,
+
             "Events":
             [
                 {
                     "classification": "WAKEUP",
-                    "xPos": 2480,
-                    "yPos": 1513,
-                    "startTime": 4800
+                    "xPos": 4113,
+                    "yPos": 3535,
+                    "startTime": 5400
                 },
 
                 {
                     "classification": "BREAK",
-                    "xPos": 2100,
-                    "yPos": 1300,
-                    "startTime": 5800
+                    "xPos": 2940,
+                    "yPos": 3425,
+                    "startTime": 6120
                 },
 
                 {
                     "classification": "BREAK",
-                    "xPos": 2080,
-                    "yPos": 1700,
-                    "startTime": 7200
+                    "xPos": 3520,
+                    "yPos": 3650,
+                    "startTime": 8280
                 },
 
                 {
                     "classification": "WORKNEXT",
-                    "xPos": 2480,
-                    "yPos": 1513,
-                    "startTime": 10800
+                    "xPos": 4113,
+                    "yPos": 3500,
+                    "startTime": 12600
                 },
 
                 {
                     "classification": "ENDWORK",
-                    "xPos": 2080,
-                    "yPos": 1700,
+                    "xPos": 3520,
+                    "yPos": 3650,
                     "startTime": 23400
                 },
 
                 {
                     "classification": "WORKNEXT",
-                    "xPos": 2480,
-                    "yPos": 1513,
+                    "xPos": 4113,
+                    "yPos": 3500,
                     "startTime": 27000
                 },
 
                 {
                     "classification": "ENDWORK",
-                    "xPos": 2100,
-                    "yPos": 1760,
-                    "startTime": 42300
+                    "xPos": 3520,
+                    "yPos": 3650,
+                    "startTime": 43200
                 },
 
                 {
                     "classification": "SLEEP",
-                    "xPos": 2480,
-                    "yPos": 1513,
+                    "xPos": 4113,
+                    "yPos": 3500,
                     "startTime": 50400
                 }
             ],
@@ -307,72 +512,164 @@
             []
 
         },
-
+        
         {
-            "ID": "Lance",
+            "ID": "Freya",
             "trailBlaze": true,
             "maxADHD": 600,
-            "maxTalkLength": 400,
-            "attentionSpan": 30,
-            "talkingRange": 30,
+            "maxTalkLength": 300,
+            "attentionSpan": 75,
+            "talkingRange": 120,
+            
+            "wakeUpTime": 12600,
+            "sleepTime": 46800,
+
+            "nocturnal": false,
+
             "Events":
             [
                 {
                     "classification": "WAKEUP",
-                    "xPos": 3490,
-                    "yPos": 1580,
-                    "startTime": 10800
+                    "xPos": 4401,
+                    "yPos": 3631,
+                    "startTime": 12600
                 },
 
                 {
-                    "classification": "BREAK",
-                    "xPos": 3020,
-                    "yPos": 1770,
-                    "startTime": 12000
+                    "classification": "WORKNEXT",
+                    "xPos": 4401,
+                    "yPos": 3567,
+                    "startTime": 14400
                 },
 
                 {
-                    "classification": "BREAK",
-                    "xPos": 2480,
-                    "yPos": 1890,
-                    "startTime": 16000
+                    "classification": "ENDWORK",
+                    "xPos": 3810,
+                    "yPos": 4880,
+                    "startTime": 25200
                 },
 
                 {
-                    "classification": "BREAK",
-                    "xPos": 2100,
-                    "yPos": 1790,
-                    "startTime": 18000
+                    "classification": "Break",
+                    "xPos": 4401,
+                    "yPos": 3651,
+                    "startTime": 27000
                 },
 
                 {
-                    "classification": "BREAK",
-                    "xPos": 1825,
-                    "yPos": 1400,
-                    "startTime": 25000
+                    "classification": "WORKNEXT",
+                    "xPos": 4401,
+                    "yPos": 3567,
+                    "startTime": 29880
                 },
 
                 {
-                    "classification": "BREAK",
-                    "xPos": 2600,
-                    "yPos": 1470,
-                    "startTime": 30000
-                },
-
-                {
-                    "classification": "BREAK",
-                    "xPos": 2100,
-                    "yPos": 650,
-                    "startTime": 40000
+                    "classification": "ENDWORK",
+                    "xPos": 4229,
+                    "yPos": 4057,
+                    "startTime": 43920
                 },
 
                 {
                     "classification": "SLEEP",
-                    "xPos": 3490,
-                    "yPos": 1580,
-                    "startTime": 50400
+                    "xPos": 4401,
+                    "yPos": 3567,
+                    "startTime": 46800
                 }
-            ]
+            ],
+            
+            "PlayerDialouge":
+            [
+                {
+                    "RepMessage":
+                    [
+                        {
+                            "message": "Don't Touch anything in my shop! I don't want to clean it again!"
+                        },
+
+                        {
+                            "message": "God its You"
+                        },
+
+                        {
+                            "message": "Just Leave"
+                        }
+                    ]
+                },
+
+                {
+                    "RepMessage":
+                    [
+                        {
+                            "message": "You make a mess everywhere you go!"
+                        },
+
+                        {
+                            "message": "Why do you keep coming back here."
+                        },
+
+                        {
+                            "message": "My potions are great but don't waste them."
+                        }
+                    ]
+                },
+
+                {
+                    "RepMessage":
+                    [
+                        {
+                            "message": "If you're new here, I made the best potions in the area"
+                        },
+
+                        {
+                            "message": "If you come to my shop, just make sure you wipe your hoofs off first"
+                        },
+
+                        {
+                            "message": "What's the world like out there?"
+                        }
+                    ]
+                },
+
+                {
+                    "RepMessage":
+                    [
+                        {
+                            "message": "Welcome back! I've got potions if you need them"
+                        },
+
+                        {
+                            "message": "Noticed your hooves are wiped clean. Does that mean your looking to buy potions?"
+                        },
+
+                        {
+                            "message": "I test all my potions to make sure they are safe for you!"
+                        }
+                    ]
+                },
+
+                {
+                    "RepMessage":
+                    [
+                        {
+                            "message": "Thanks to your data, I have been able to make many concoctions"
+                        },
+
+                        {
+                            "message": "Don't worry about wiping those hooves when you come in, I can clean it!"
+                        },
+
+                        {
+                            "message": "Only the best potions for you!"
+                        }
+                    ]
+                }
+            ],
+
+            "NPCDialouge":
+            []
+
         }
+    
     ]
 }

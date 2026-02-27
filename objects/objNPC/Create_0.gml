@@ -44,6 +44,10 @@ attentionSpan = 0
 
 talkingRange = 120;
 
+wakeUp = 0;
+sleep = 0;
+nocturnal = false;
+
 needsText = true;
 dialougeOption = "";
 charCount = 0;

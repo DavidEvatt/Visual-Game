@@ -95,7 +95,7 @@ if(showInventory && room != Room1)
 								weaponColor[2],
 								weaponColor[0]
 							)
-							draw_sprite_ext(sprIronWoodSword, 0, 738 + (drawWeaponSpacing * row), 225 + (drawWeaponSpacing * col), 2, 2, 0, c_white, 1)
+							draw_sprite_ext(sprSword, 0, 738 + (drawWeaponSpacing * row), 225 + (drawWeaponSpacing * col), 2, 2, 0, c_white, 1)
 							shader_reset();
 							break;	
 						}

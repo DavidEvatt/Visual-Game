@@ -17,7 +17,7 @@ if(npcFollow != noone)
 	
 	curNPCEvent = ds_list_find_value(npcFollow.schedule, npcFollow.eventPosition);
 	//show_debug_message(curNPCEvent[? "classification"])
-	if(curNPCEvent[? "classification"] == "ENDWORK")
+	if(npcFollow.working)
 	{
 		open = true;
 	}

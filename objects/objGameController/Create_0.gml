@@ -25,7 +25,7 @@ previousNode = "Eldaria/town.json";
 // --- Function to Load JSON Node ---
 
 
-region = "ElderwellForest";
+region = "Enemies";
 
 
 regionMap = ds_map_create();
@@ -46,13 +46,6 @@ characterExists = false;
 //creating the enemy database
 tieredEnemies = ds_map_create()
 loadInEnemies("Enemies.json", region)
-
-enemyGen = ds_map_create();
-enemyGen[? "1"] = [50, 10, 5, 1, 0];
-enemyGen[? "2"] = [75, 15, 5, 2, 0];
-enemyGen[? "3"] = [95, 80, 20, 5, 0];
-enemyGen[? "4"] = [98, 95, 85, 25, 0];
-enemyGen[? "5"] = [98, 95, 90, 50, 0];
 
 //creating data bases to pull from
 craftingColors = ds_map_create();

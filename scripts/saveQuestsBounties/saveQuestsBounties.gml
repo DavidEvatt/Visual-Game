@@ -99,7 +99,7 @@ function saveQuestsBounties()
 
 	json = json_stringify(saveRoot);
 
-	var file = file_text_open_write("PlayerData/questsSave.json");
+	file = file_text_open_write("PlayerData/questsSave.json");
 	file_text_write_string(file, json);
 	file_text_close(file);
 }

@@ -22,16 +22,17 @@ if(currentTime >= dawnStart && currentTime < dayStart) //reducing alpha until 0
 
 else if(currentTime >= dayStart && currentTime < duskStarts)
 {
-	if(portionTimer != 0){portionTimer = 0;}
+	if(portionTimer != duskStarts){portionTimer = duskStarts;}
 	if(global.night){global.night = false;}
 	alphaVal = 1 - dayStart * 0.8;
 }
 
 else if(currentTime >= duskStarts && currentTime < nightStarts) //building alpha until 1
 {
+	if(portionTimer < duskStarts){portionTimer = duskStarts;}
 	portionTimer++;
-	if(!global.night && portionTimer >  (duskStarts * 0.8)){global.night = true;}
-	else if(!global.night && portionTimer <=  (duskStarts * 0.8)){ global.night = false}
+	if(!global.night && portionTimer > (duskStarts * 0.8)){global.night = true;}
+	else if(!global.night && portionTimer <= (duskStarts * 0.8)){ global.night = false}
 	alphaVal = min((portionTimer + (nightStarts * 0.10)) / nightStarts, 1)
 	//show_debug_message(string(alpha))
 	//layer_background_alpha(bkg, alpha);
@@ -41,7 +42,7 @@ else if(currentTime >= nightStarts)
 {
 	if(portionTimer != 0){portionTimer = 0;}
 	if(!global.night){global.night = true;}
-	alphaVal = (nightStarts * 0.90) / nightStarts;
+	alphaVal = (nightStarts * 0.85) / nightStarts;
 }
 
 

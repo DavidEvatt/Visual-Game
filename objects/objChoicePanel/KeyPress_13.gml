@@ -132,8 +132,8 @@ switch(currentState)
 		currentState = CHOICESTATE.JSON;
 		objMainText.currentState = MAINAREA.JSON
 		
-		objTDPlayer.x = 2095;
-		objTDPlayer.y = 655;
+		objTDPlayer.x = 3785;
+		objTDPlayer.y = 670;
 		
 		room_goto_next();
 		
@@ -155,8 +155,8 @@ switch(currentState)
 			
 			case 1: 
 			{
-				objTDPlayer.x = 2731;
-				objTDPlayer.y = 1622;
+				objTDPlayer.x = 3785;
+				objTDPlayer.y = 670;
 				loadInPlayer(); 
 				objGameController.characterExists = true;		
 				objGameController.gameStart = true; 

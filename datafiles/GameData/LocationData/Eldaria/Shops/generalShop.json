@@ -40,48 +40,37 @@
         {
             "ID": "lessHealth",
             "actionDescription": "Lesser Health Potion",
-            "Cost": 12,
-            "target": "buyItems"
+            "Cost": 10,
+            "target": "buyItems",
+            "image": "sprLHealth",
+            "total": 3
         },
 
         {
             "ID": "oakenShield",
             "actionDescription": "Oaken Shield",
             "Cost": 45,
-            "target": "buyItems"
+            "target": "buyItems",
+            "image": "sprSword",
+            "total": 1
         },
 
         {
-            "ID": "wood",
-            "actionDescription": "Piece of Wood",
-            "Cost": 2,
-            "target": "buyItems"
+            "ID": "woodSword",
+            "actionDescription": "Wooden Sword",
+            "Cost": 25,
+            "target": "buyItems",
+            "image": "sprSword",
+            "total": 1
         },
 
         {
-            "ID": "rose",
-            "actionDescription": "Red Rose",
-            "Cost": 15,
-            "target": "buyItems"
-        },
-
-        {
-            "ID": "boarTusk",
-            "actionDescription": "Boar's Tusk",
-            "Cost": 20,
-            "target": "buyItems"
-        },
-
-        {
-            "ID": "leaf",
-            "actionDescription": "A Cool Leaf",
-            "Cost": 5,
-            "target": "buyItems"
-        },
-
-        {
-            "actionDescription": "Back",
-            "target": "Eldaria/Shops/generalShop.json"
+            "ID": "ironWoodKatana",
+            "actionDescription": "Iron Wood Katana",
+            "Cost": 45,
+            "target": "buyItems",
+            "image": "sprSword",
+            "total": 1
         }
     ]
 }

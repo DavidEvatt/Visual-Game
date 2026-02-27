@@ -48,6 +48,9 @@ function loadInNpc(ID)
 				maxTalkLength = curNPC[? "maxTalkLength"];
 				attentionSpan = curNPC[? "attentionSpan"]
 				talkingRange = curNPC[? "talkingRange"];
+				wakeUp = curNPC[? "wakeUpTime"];
+				sleep = curNPC[? "sleepTime"];
+				nocturnal = curNPC[? "nocturnal"];
 			}
 			
 		}

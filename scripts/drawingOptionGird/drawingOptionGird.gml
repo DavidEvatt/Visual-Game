@@ -171,7 +171,7 @@ function drawingOptionGird(actionSet, xStart, yStart, lineHeight, maxColumns, cu
 		    // Draw options
 		   for (var i = 0; i < array_length(actionSet); i++) 
 			{
-				xVal = xStart;
+				var xVal = xStart;
 				var text = "";
 				
 				if(i == array_length(actionSet) -1)
@@ -200,7 +200,7 @@ function drawingOptionGird(actionSet, xStart, yStart, lineHeight, maxColumns, cu
 			    }
 
 			    // Compute y position
-			    yVal = yStart + row * lineHeight;
+			    var yVal = yStart + row * lineHeight;
 				
 	
 				if(i == currentOption)

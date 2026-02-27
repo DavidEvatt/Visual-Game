@@ -38,47 +38,20 @@
     "Inventory":
     [
         {
-            "ID": "woodKatana",
+            "ID": "lessHealth",
             "actionDescription": "Lesser Health Potion",
             "Cost": 10,
             "target": "buyItems",
             "image": "sprLHealth",
-            "total": 2
+            "total": 3
         },
         {
-            "ID": "steelSword",
+            "ID": "lessMana",
             "actionDescription": "Lesser Health Potion",
             "Cost": 10,
             "target": "buyItems",
-            "image": "sprLHealth",
-            "total": 2
-        },
-
-        {
-            "ID": "stick",
-            "actionDescription": "Lesser Mana Potions",
-            "Cost": 10,
-            "target": "buyItems",
-            "image": "sprStick",
-            "total": 2
-        },
-
-        {
-            "ID": "ironWoodKatana",
-            "actionDescription": "Iron Wood Katana",
-            "Cost": 20,
-            "target": "buyItems",
-            "image": "sprIronWoodSword",
-            "total": 1
-        },
-
-        {
-            "ID": "woodSword",
-            "actionDescription": "Wood Sword",
-            "Cost": 20,
-            "target": "buyItems",
-            "image": "sprIronWoodSword",
-            "total": 1
+            "image": "sprLMana",
+            "total": 3
         }
     ],
 
