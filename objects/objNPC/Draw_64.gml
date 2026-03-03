@@ -4,7 +4,43 @@ if(currentState == NPCSTATE.TALKTOPLAYER)
 	if(needsText)
 	{
 		var repOption = npcData[? "PlayerDialouge"];
-		var useRep = ds_list_find_value(repOption, objTDPlayer.reputation)[? "RepMessage"]
+		
+		var characterRep = ds_map_find_value(objTDPlayer.reputationTable, whoAmI);
+		
+		var useRep = undefined;
+		
+		
+		//Super bad
+		if( characterRep <= -75)
+		{
+			useRep = ds_list_find_value(repOption, 0)[? "RepMessage"];
+		}
+			
+		//medium bad
+		else if (characterRep > -75 && characterRep <= -25)
+		{
+			useRep = ds_list_find_value(repOption, 1)[? "RepMessage"];
+		}
+			
+		//defualt 
+		else if (characterRep > -25 && characterRep <= 25)
+		{
+			useRep = ds_list_find_value(repOption, 2)[? "RepMessage"];
+		}
+			
+		//medium goood
+		else if (characterRep > 25 && characterRep <= 75)
+		{
+			useRep = ds_list_find_value(repOption, 3)[? "RepMessage"];
+		}
+			
+		//super good
+		else if (characterRep > 75)
+		{
+			useRep = ds_list_find_value(repOption, 4)[? "RepMessage"];
+		}
+		
+		
 		
 		if(!is_undefined(useRep))
 		{

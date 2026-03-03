@@ -189,6 +189,7 @@
     {"name":"loadInPlayer","order":4,"path":"scripts/loadInPlayer/loadInPlayer.yy",},
     {"name":"loadInPotions","order":5,"path":"scripts/loadInPotions/loadInPotions.yy",},
     {"name":"loadInQuests","order":7,"path":"scripts/loadInQuests/loadInQuests.yy",},
+    {"name":"loadInRepp","order":9,"path":"scripts/loadInRepp/loadInRepp.yy",},
     {"name":"loadInWeapons","order":6,"path":"scripts/loadInWeapons/loadInWeapons.yy",},
     {"name":"loadPlayerMoveKnowledge","order":1,"path":"scripts/loadPlayerMoveKnowledge/loadPlayerMoveKnowledge.yy",},
     {"name":"loadPlayerPotionKnowledge","order":2,"path":"scripts/loadPlayerPotionKnowledge/loadPlayerPotionKnowledge.yy",},

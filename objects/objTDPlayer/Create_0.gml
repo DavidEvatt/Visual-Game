@@ -148,4 +148,7 @@ manaRegen = 0.009;
 talkingToNpc = false;
 talkingRange = 120;
 
+//Reputation Values
+reputationTable = ds_map_create();
+loadInRepp();
 reputation = 4;

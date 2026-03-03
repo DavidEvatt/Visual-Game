@@ -24,7 +24,6 @@ function loadInCrafting(fileDirectory)
 		{
 			craftingMaterials[i] = ds_list_find_value(material, i);	
 			
-			show_debug_message(craftingMaterials[i][? "ID"] + ": R = " + string(craftingMaterials[i][? "R"]))
 			ds_map_add(craftingColors, craftingMaterials[i][? "ID"], make_color_rgb(craftingMaterials[i][? "R"], craftingMaterials[i][? "G"], craftingMaterials[i][? "B"]))
 			
 		}
