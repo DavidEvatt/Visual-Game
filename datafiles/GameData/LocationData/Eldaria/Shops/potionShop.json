@@ -1,5 +1,5 @@
 {
-    "owner": "Thalan Oakheart",
+    "owner": "Thalan",
     "id": "s1",
     "type": "shop",
     "name": "Oakheart's Brewery",
@@ -38,6 +38,7 @@
     "Inventory":
     [
         {
+            "minRep": -30,
             "ID": "lessHealth",
             "actionDescription": "Lesser Health Potion",
             "Cost": 10,
@@ -46,12 +47,23 @@
             "total": 3
         },
         {
+            "minRep": -10,
             "ID": "lessMana",
             "actionDescription": "Lesser Health Potion",
             "Cost": 10,
             "target": "buyItems",
             "image": "sprLMana",
             "total": 3
+        },
+
+        {
+            "minRep": 20,
+            "ID": "heartWoodShield",
+            "actionDescription": "Heart Wood Shield",
+            "Cost": 60,
+            "target": "buyItems",
+            "image": "sprLMana",
+            "total": 1
         }
     ],
 

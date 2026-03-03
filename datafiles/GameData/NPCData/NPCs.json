@@ -165,6 +165,46 @@
                         }
                     ]
                 }
+            ],
+        
+            "Actions":
+            [
+                {
+                    "actionDescription": "Quest",
+                    "target": "questTalk"
+                },
+
+                {
+                    "actionDescription": "Rumor",
+                    "target": "rumorMessages"
+                }
+            ],
+
+            "rumorMessages":
+            [
+                {
+                    "message": "Rumor1"
+                },
+
+                {
+                    "message": "Rumor2"
+                },
+
+                {
+                    "message": "Rumor3"
+                },
+
+                {
+                    "message": "Rumor4"
+                },
+
+                {
+                    "message": "Rumor5"
+                },
+
+                {
+                    "message": "Rumor6"
+                }
             ]
         },
 
@@ -345,6 +385,46 @@
                         }
                     ]
                 }
+            ],
+        
+            "Actions":
+            [
+                {
+                    "actionDescription": "Quest",
+                    "target": "questTalk"
+                },
+
+                {
+                    "actionDescription": "Rumor",
+                    "target": "rumorMessages"
+                }
+            ],
+
+            "rumorMessages":
+            [
+                {
+                    "message": "Rumor1"
+                },
+
+                {
+                    "message": "Rumor2"
+                },
+
+                {
+                    "message": "Rumor3"
+                },
+
+                {
+                    "message": "Rumor4"
+                },
+
+                {
+                    "message": "Rumor5"
+                },
+
+                {
+                    "message": "Rumor6"
+                }
             ]
         },
 
@@ -508,8 +588,46 @@
                 }
             ],
 
-            "NPCDialouge":
-            []
+           "Actions":
+            [
+                {
+                    "actionDescription": "Quest",
+                    "target": "questTalk"
+                },
+
+                {
+                    "actionDescription": "Rumor",
+                    "target": "rumorMessages"
+                }
+            ],
+
+            "rumorMessages":
+            [
+                {
+                    "message": "Some say that this well is encahnted.\nA coin for a wish.\nI don't believe it though.\n"
+                },
+
+                {
+                    "message": "This well is a curse on the town. People come and throw coins expecting riches.\nIt's all a mess!\n"
+                },
+
+                {
+                    "message": "Those Blackthane's are nothing but trouble and a messy bunch.\nI swear the younger brother makes cursed weapons at night!"
+                },
+
+
+                {
+                    "message": "If you visit my sister, clean her shop for her.\nHer unorganized mess is a stain on the Oakheart name."
+                },
+
+                {
+                    "message": "My family came here to learn about the magic of the woods.\nI prefer crafting the best potions instead of adventure."
+                },
+
+                {
+                    "message": "The Oakhearts and Blackthanes are the two dominate families of this village.\nMy family, the Oakhearts, are the better of the two!"
+                }
+            ]
 
         },
         
@@ -666,8 +784,45 @@
                 }
             ],
 
-            "NPCDialouge":
-            []
+            "Actions":
+            [
+                {
+                    "actionDescription": "Quest",
+                    "target": "questTalk"
+                },
+
+                {
+                    "actionDescription": "Rumor",
+                    "target": "rumorMessages"
+                }
+            ],
+
+            "rumorMessages":
+            [
+                {
+                    "message": "Rumor1"
+                },
+
+                {
+                    "message": "Rumor2"
+                },
+
+                {
+                    "message": "Rumor3"
+                },
+
+                {
+                    "message": "Rumor4"
+                },
+
+                {
+                    "message": "Rumor5"
+                },
+
+                {
+                    "message": "Rumor6"
+                }
+            ]
 
         }
     

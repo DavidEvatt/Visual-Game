@@ -1,9 +1,9 @@
 if(room != Room1)
 {
-	keyRight = keyboard_check(vk_right) || keyboard_check(ord("D"));
-	keyLeft = keyboard_check(vk_left) || keyboard_check(ord("A"));
-	keyUp = keyboard_check(vk_up) || keyboard_check(ord("W"));
-	keyDown = keyboard_check(vk_down) || keyboard_check(ord("S"));
+	keyRight = keyboard_check(ord("D"));
+	keyLeft = keyboard_check(ord("A"));
+	keyUp = keyboard_check(ord("W"));
+	keyDown = keyboard_check(ord("S"));
 	keyAttack = mouse_check_button_pressed(mb_left);
 	keySpace = keyboard_check_pressed(vk_space)
 	
@@ -76,6 +76,8 @@ if(room != Room1)
 				npc.path_speed = npc.pathSpd;
 				talkingToNpc = false;	
 				npc.currentState = NPCSTATE.MOVE;
+				objChoicePanel.currentState = CHOICESTATE.JSON;
+				objChoicePanel.charCount = 0;
 			}	
 		}
 	}

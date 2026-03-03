@@ -16,17 +16,21 @@ if(shopNeedsCreation)
 			for(var i = 0; i < ds_list_size(actionList); i++)
 			{
 				var item = ds_list_find_value(actionList, i);
-				var itemCreate =
+				if(ds_map_find_value(objTDPlayer.reputationTable, objGameController.location[? "owner"]) >= item[? "minRep"])
 				{
-					price: item[? "Cost"],
-					image: asset_get_index(item[? "image"]),
-					itemID: item[? "ID"],
-					amount: item[? "total"]
-				}
+					var itemCreate =
+					{
+						price: item[? "Cost"],
+						image: asset_get_index(item[? "image"]),
+						itemID: item[? "ID"],
+						amount: item[? "total"]
+					}
 				
-				show_debug_message("Created Item : " + itemCreate.itemID)
+				
+					show_debug_message("Created Item : " + itemCreate.itemID)
 			
-				instance_create_layer(273 + (xPlacement * i), 238, "Instances", objItem, itemCreate)
+					instance_create_layer(273 + (xPlacement * i), 238, "Instances", objItem, itemCreate)
+				}
 			}
 		}
 		

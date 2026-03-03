@@ -74,6 +74,15 @@ enum CHOICESTATE
 	COMBATDEATH,
 	EVALUATECOMBAT,
 	
-	NEEDSPAUSE
+	NEEDSPAUSE,
+	
+	
+	
+	NPCTALK
 }
+
+needsText = true;
+mainMessage = "";
+charCount = 0;
+typeSpd = 0.4; // Characters per frame
 

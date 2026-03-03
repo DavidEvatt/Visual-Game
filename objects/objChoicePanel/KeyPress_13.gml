@@ -2,9 +2,11 @@
 
 switch(currentState)
 {
+	/*
 	case CHOICESTATE.NEEDSPAUSE:
 	{
 		loadFromJson(objGameController.currentNode);
+		break;
 	}
 	
 	case CHOICESTATE.COMBATDEATH:
@@ -40,7 +42,7 @@ switch(currentState)
 		}
 		break;	
 	}
-	
+	*/
 	case CHOICESTATE.CREATION:
 	{
 		if(objGameController.statAllocationPoints <= 0)
@@ -172,6 +174,28 @@ switch(currentState)
 		break;	
 	}
 	
+	case CHOICESTATE.NPCTALK:
+	{
+		if(objTDPlayer.npc != noone)
+		{
+			var newList = objTDPlayer.npc.npcData[? objGameController.actionsArray[currentOption][? "target"]];
+			
+			if(ds_exists(newList, ds_type_list))
+			{
+				var randomMes = irandom_range(0, ds_list_size(newList) -1);
+				
+				mainMessage = ds_list_find_value(newList, randomMes)[? "message"];
+				charCount = 0;
+			}
+			
+			else
+			{
+				show_debug_message("New List is not a List ")	
+			}
+		}
+	}
+	
+	/*
 	case CHOICESTATE.JSON: //keywords or json
 	{
 		switch(objGameController.previousNode)
@@ -320,5 +344,5 @@ switch(currentState)
 		
 		currentOption = 0;
 		break;
-	}
+	}*/
 }

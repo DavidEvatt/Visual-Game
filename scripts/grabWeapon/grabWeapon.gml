@@ -12,7 +12,7 @@ function grabWeapon(idToGrab)
 	
 	if(returnData == undefined)
 	{
-		show_debug_message("Not a weapon or not a valid ID")
+		//show_debug_message("Not a weapon or not a valid ID")
 	}
 	
 	return returnData;

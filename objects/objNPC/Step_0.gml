@@ -198,18 +198,21 @@ if(eventPosition >= ds_list_size(schedule))
 
 	//Waiting for work to end
 	if(!is_undefined(ds_list_find_value(schedule, eventPosition)))
-	{
-		if(ds_list_find_value(schedule, eventPosition)[? "classification"] == "ENDWORK")
+	{	
+		if(currentState != NPCSTATE.TALKTOPLAYER)
 		{
-			//check if we are equal to the previous events X and Y
-			if(point_distance(x, y, ds_list_find_value(schedule, eventPosition -1)[? "xPos"], ds_list_find_value(schedule, eventPosition -1)[? "yPos"]) <= 20)
+			if(ds_list_find_value(schedule, eventPosition)[? "classification"] == "ENDWORK")
 			{
-				if(!working){working = true};	
-			}
+				//check if we are equal to the previous events X and Y
+				if(point_distance(x, y, ds_list_find_value(schedule, eventPosition -1)[? "xPos"], ds_list_find_value(schedule, eventPosition -1)[? "yPos"]) <= 20)
+				{
+					if(!working){working = true};	
+				}
 		
-			if(ds_list_find_value(schedule, eventPosition)[? "startTime"] <= objSun.currentTime)
-			{
-				if(working){working = false};	
+				if(ds_list_find_value(schedule, eventPosition)[? "startTime"] <= objSun.currentTime)
+				{
+					if(working){working = false};	
+				}
 			}
 		}
 	}

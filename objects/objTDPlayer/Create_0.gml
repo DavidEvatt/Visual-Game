@@ -152,3 +152,5 @@ talkingRange = 120;
 reputationTable = ds_map_create();
 loadInRepp();
 reputation = 4;
+
+npc = noone;

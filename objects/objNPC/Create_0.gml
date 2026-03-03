@@ -70,6 +70,8 @@ distracted = false
 
 moveRange48 = 1.5
 
-//load in schedule
+//load in schedule and actions
 schedule = ds_list_create();
+actions = ds_list_create();
+
 loadInNpc(whoAmI)

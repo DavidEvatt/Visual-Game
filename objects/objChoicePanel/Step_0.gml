@@ -230,3 +230,9 @@ if(currentState == CHOICESTATE.COMBATCHOICE && objGameController.curEnemy == noo
 {
 	currentState = CHOICESTATE.JSON;	
 }
+
+if (charCount < string_length(mainMessage)) 
+{
+	charCount += typeSpd;
+}	
+

@@ -1,6 +1,6 @@
 if(currentState == NPCSTATE.TALKTOPLAYER)
 {
-	draw_rectangle(200, 500, 1050, 700, false);
+	if(objChoicePanel.currentState != CHOICESTATE.NPCTALK){objChoicePanel.currentState = CHOICESTATE.NPCTALK}
 	if(needsText)
 	{
 		var repOption = npcData[? "PlayerDialouge"];
@@ -48,6 +48,7 @@ if(currentState == NPCSTATE.TALKTOPLAYER)
 			if(!is_undefined( ds_list_find_value(useRep, randVal)[? "message"]))
 			{
 				dialougeOption = ds_list_find_value(useRep, randVal)[? "message"];
+				objChoicePanel.mainMessage = dialougeOption;
 			}
 			
 			else {show_debug_message("RepOption at " + string(randVal) + " is undefined")}
@@ -58,12 +59,13 @@ if(currentState == NPCSTATE.TALKTOPLAYER)
 		needsText = false;
 	}
 	
+	/*
 	draw_set_colour(c_black);
 	draw_set_halign(fa_left);
 	
 	var _text_to_draw = string_copy(dialougeOption, 1, floor(charCount));
 	draw_text(500, 525, _text_to_draw);
-	
+	*/
 	draw_set_halign(fa_center);
 	
 	draw_set_alpha(c_white);

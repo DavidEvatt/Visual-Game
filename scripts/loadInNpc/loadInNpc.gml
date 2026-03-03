@@ -41,6 +41,7 @@ function loadInNpc(ID)
 				}
 				
 				schedule = events;
+				actions = curNPC[? "Actions"];
 				
 				
 				trailBlaze = curNPC[? "trailBlaze"];

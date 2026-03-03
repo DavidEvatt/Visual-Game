@@ -1,7 +1,7 @@
 /// @description Interact Key
 
-var npc = instance_nearest(x,y ,objNPC);
-if(distance_to_object(npc) <= talkingRange && !npc.working)
+npc = instance_nearest(x,y ,objNPC);
+if(distance_to_object(npc) <= talkingRange && !npc.working && npc != noone)
 {
 	if(npc.currentState != NPCSTATE.TALKTOPLAYER)
 	{
@@ -9,6 +9,23 @@ if(distance_to_object(npc) <= talkingRange && !npc.working)
 		npc.charCount = 0;
 		talkingToNpc = true;
 		npc.currentState =  NPCSTATE.TALKTOPLAYER;
+		
+		objGameController.actionsArray = []
+		
+		var actionList = npc.actions
+		
+		if(!is_undefined(actionList))
+		{
+			for(var i = 0; i < ds_list_size(actionList); i++)
+			{
+				objGameController.actionsArray[i] = ds_list_find_value(actionList, i);
+			}
+		}
+		
+		show_debug_message("Action List is undefined");
+		
+		
+		
 	}
 	
 	else
@@ -16,5 +33,8 @@ if(distance_to_object(npc) <= talkingRange && !npc.working)
 		npc.path_speed = npc.pathSpd;
 		npc.charCount = 0;
 		npc.currentState =  NPCSTATE.MOVE;
+		objChoicePanel.currentState = CHOICESTATE.JSON;
+		objChoicePanel.charCount = 0;
+
 	}
 }
