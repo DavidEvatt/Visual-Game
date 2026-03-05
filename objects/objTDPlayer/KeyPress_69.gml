@@ -23,9 +23,6 @@ if(distance_to_object(npc) <= talkingRange && !npc.working && npc != noone)
 		}
 		
 		show_debug_message("Action List is undefined");
-		
-		
-		
 	}
 	
 	else
@@ -36,5 +33,20 @@ if(distance_to_object(npc) <= talkingRange && !npc.working && npc != noone)
 		objChoicePanel.currentState = CHOICESTATE.JSON;
 		objChoicePanel.charCount = 0;
 
+	}
+}
+
+var well = instance_nearest(x, y, objWell);
+if(distance_to_object(well) <= 20)
+{
+	if(coins >= 0)
+	{
+		tossACoin();
+		coins--;
+	}
+	
+	else
+	{
+		show_debug_message("no coins");	
 	}
 }

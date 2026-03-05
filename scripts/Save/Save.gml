@@ -203,6 +203,25 @@ function Save()
 		
 	}
 	
+	//saving reputation
+	if(true)
+	{
+		var keys = ds_map_keys_to_array(objTDPlayer.reputationTable);
+		
+		var saveRep = {};
+		
+		for(var i = 0; i < array_length(keys); i++)
+		{
+			variable_struct_set(saveRep, keys[i], ds_map_find_value(objTDPlayer.reputationTable, keys[i]))
+		}
+		
+		json = json_stringify(saveRep);
+
+		var file = file_text_open_write("PlayerData/reputationSave.json");
+		file_text_write_string(file, json);
+		file_text_close(file);
+	}
+	
 	game_end(0);
 }
 

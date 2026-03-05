@@ -6,12 +6,53 @@ function enemyStateAttack()
 	{
 		case "Slime":
 		{
-			var index = irandom(1) + 1;
+			var index = irandom(0) + 1;
 		
 			switch(index)
 			{
-				case 1:	sprite_index = sprSlime1; break;
-				case 2:	sprite_index = sprSlime2; break;
+				case 1:	
+				{
+					if(sprite_index != sprSlime1Atk)
+					{
+						image_index = 0;
+						sprite_index = sprSlime1Atk; mask_index = sprSlime1AtkHB; 
+					}
+					
+					break;
+				}
+			}
+			
+			if(curCharge >= chargeUp && canCharge)
+			{
+				path_end();
+				var dir = point_direction(x, y, targX, targY);
+				hsp = lengthdir_x(3, dir);
+				vsp = lengthdir_y(3, dir);
+				canCharge = false;
+				
+				var ang = point_direction(x, y, targX, targY);
+				var dist = point_distance(x, y, targX, targY);
+				var overshoot = 16; // pixels past the player
+				var dashDist = dist + overshoot;
+				
+				var endX = x + cos(degtorad(ang)) * dashDist;
+				var endY = y - sin(degtorad(ang)) * dashDist;
+				
+				with(self)
+				{
+					var path = path_add();
+					if(mp_grid_path(objGameController.worldMap, path, x, y, endX, endY, true))
+					{
+						path_start(path, moveSpd * 4, path_action_stop, 0)	
+					}
+				}
+			}
+					
+			else if (curCharge < chargeUp)
+			{
+				hsp = 0;
+				vsp = 0;
+				if (path_index != -1) path_end();
 			}
 		
 			break;	

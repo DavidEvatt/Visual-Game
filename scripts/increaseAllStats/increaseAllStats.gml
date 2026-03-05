@@ -1,16 +1,16 @@
 function increaseAllStats(hpBut, strBut, dexBut, mdBut, luckBut)
 {
-	objPlayer.maxHp += hpBut;
-	objPlayer.hp = objPlayer.maxHp;
+	objTDPlayer.maxHp += hpBut;
+	objTDPlayer.hp = objTDPlayer.maxHp;
 
-	objPlayer.str += strBut;
-	objPlayer.dex += dexBut;
-	objPlayer.mind += mdBut;
+	objTDPlayer.str += strBut;
+	objTDPlayer.dex += dexBut;
+	objTDPlayer.mind += mdBut;
 	
-	objPlayer.luck += luckBut;
+	objTDPlayer.luck += luckBut;
 	
-	objPlayer.mana = objPlayer.mind * 10;
-	objPlayer.maxMana = objPlayer.mana;
+	objTDPlayer.mana = objTDPlayer.mind * 10;
+	objTDPlayer.maxMana = objTDPlayer.mana;
 	
 	objChoicePanel.currentState = CHOICESTATE.JSON;
 }

@@ -6,12 +6,12 @@ function spriteIndexer()
 	{
 		case "Slime":
 		{
-			var index = irandom(1) + 1;
+			var index = irandom(0) + 1;
 		
 			switch(index)
 			{
 				case 1:	sprite_index = sprSlime1; break;
-				case 2:	sprite_index = sprSlime2; break;
+				//case 2:	sprite_index = sprSlime2; break;
 			}
 		
 			break;	

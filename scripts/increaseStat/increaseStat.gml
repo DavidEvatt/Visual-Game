@@ -4,14 +4,14 @@ function increaseStat(type)
 {
 	switch(type)
 	{
-		case "health": {objPlayer.maxHp++; break;}
+		case "health": {objTDPlayer.maxHp++; break;}
 		
-		case "strength": {objPlayer.str++; break;}
+		case "strength": {objTDPlayer.str++; break;}
 		
-		case "dexterity": {objPlayer.dex++; break;}
+		case "dexterity": {objTDPlayer.dex++; break;}
 		
-		case "mind": {objPlayer.mind++; objPlayer.maxMana = objPlayer.mind * 10; break;}
+		case "mind": {objTDPlayer.mind++; objTDPlayer.maxMana = objTDPlayer.mind * 10; break;}
 		
-		case "luck": {objPlayer.luck++; break;}
+		case "luck": {objTDPlayer.luck++; break;}
 	}
 }

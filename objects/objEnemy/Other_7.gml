@@ -6,7 +6,6 @@ if(currentState == ENEMYSTATE.ATTACK)
 	atkCooldown = 180
 	curCharge = 0;
 	canCharge = true
-		
 }
 
 

@@ -7,6 +7,9 @@ curTimer = maxVisibleTimer;
 
 currentState = POPSTATE.VISIBLE
 
+xPos = 0;
+yPos = 0;
+
 enum POPSTATE
 {
 	HIDDEN,
